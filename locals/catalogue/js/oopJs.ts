@@ -10,5 +10,5 @@ Szkolenie adresowane jest do programistów, którzy znają podstawy języka Java
         2,
     list: javascript.lists.filter(({name}) => name === "Object-oriented JavaScript")[0].list,
     skills: `
-Po ukończonym szkoleniu uczestnicy będą znać szczegółowo zasady działania mechanizmów pomagających w tworzeniu programów w JavaScript w podejściu obiektowym`
+Po ukończonym szkoleniu uczestnicy będą znać szczegółowo zasady działania mechanizmów pomagających w tworzeniu programów w JavaScript w podejściu obiektowym.`
 }
