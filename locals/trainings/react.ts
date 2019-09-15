@@ -4,12 +4,12 @@ export const react = {
         "Component styling", "Pure functions", "functional components", "Reducers", "Dispatchers", "Flux", "Redux",
         "Immutable Data Structures", "Routing Server Side Rendering", "Debugging React Components"],
     "detailDescription": "React jest bardzo popularną biblioteką do tworzenia komponentów, " +
-        "która w połączeniu z odpowiednim menadżerem stanu w podstacia react hooks, contextAPI czy Reduxem" +
-        " daja olbrzymie możliwości do budowania całej aplikacji. ",
+        "która w połączeniu z odpowiednim menadżerem stanu w podstaci react hooks, contextAPI czy Reduxem," +
+        " daje olbrzymie możliwości do budowania całej aplikacji. ",
     "name": "React + React hooks/Redux",
     "en": {},
     "mainDescription": " React to nowoczesna biblioteka pozwalająca na tworzenie architektury opartej o komponenty i" +
-        " wykorzystująca wirtualizację DOM.\n W połaczeniu z narzędziami do zarządzania stanem jest doskonały do" +
+        " wykorzystująca wirtualizację DOM.\n W połączeniu z narzędziami do zarządzania stanem, jest doskonały do" +
         " tworzenia skalowanych i wydajnych aplikacji.\n ",
     "alt": "React + React hooks/Redux",
     "img": "./img/portfolio/thumbnails/react.png",
