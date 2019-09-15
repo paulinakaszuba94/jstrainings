@@ -1,6 +1,6 @@
 export const publicSpeakingTraining = {
     name: `Prezentowanie treści technicznych`,
-    description: `Celem szkolenia jest przekazanie praktycznej wiedzy dotyczącej wystąpień publicznych oraz sposobów przekazywania treści technicznych w zrozumiały i ciekawy sposób. Szkolenie skupia się na poprawieniu umijętności: autoprezentacji, przekazywania wiedzy i podniesienia kompetencji oratorskich.
+    description: `Celem szkolenia jest przekazanie praktycznej wiedzy dotyczącej wystąpień publicznych oraz sposobów przekazywania treści technicznych w zrozumiały i ciekawy sposób. Szkolenie skupia się na poprawieniu umiejętności: autoprezentacji, przekazywania wiedzy i podniesienia kompetencji oratorskich.
 `,
 
     profile: `Szkolenie adresowane jest do osób, które pragną podnieść jakość swoich wystąpień publicznych, z naciskiem na wystąpienia publiczne związane z tematami technicznymi`,
