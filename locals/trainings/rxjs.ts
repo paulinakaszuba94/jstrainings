@@ -11,7 +11,7 @@ export const rxjs = {
         `Schedulers`,
         `Modularyzacja aplikacji`,
         `Architektura typu Model-Viewer-Intent`],
-    "detailDescription": "Celem szkolenia jest przekazanie wiedzy na temat reaktywnego programowania na podstawie budowania aplikacji w oparciu o bibliotekę RxJS. Uczestnicy poznają różnicę między podejściem imperatywnym i reaktywnym, dzięki czemu zrozumieją jakie są wady i zalety każdego z nich. Po ukończeniu szkolenia będą w stanie samodzielnie implementować reaktywne struktury i będą wiedzieć w których miejscach aplikacji takie podejście może bardzo poprawić działanie aplikacji.",
+    "detailDescription": "Celem szkolenia jest przekazanie wiedzy na temat reaktywnego programowania na podstawie budowania aplikacji w oparciu o bibliotekę RxJS. Uczestnicy poznają różnicę między podejściem imperatywnym i reaktywnym, dzięki czemu zrozumieją, jakie są wady i zalety każdego z nich. Po ukończeniu szkolenia będą w stanie samodzielnie implementować reaktywne struktury i będą wiedzieć, w których miejscach aplikacji takie podejście może bardzo poprawić jej działanie.",
     "name": "Programowanie reaktywne",
     "img": "./img/portfolio/thumbnails/rxjs.png",
     "en": {},
