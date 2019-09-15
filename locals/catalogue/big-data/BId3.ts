@@ -1,8 +1,8 @@
 export const businessIntelligence = {
     name: `Business Intelligence, wizualizacja big data w aplikacjach internetowych`,
     description: `Analiza dużych ilości danych jest skomplikowanym zadaniem, które wymaga nie tylko umiejętności przetworzenia początkowych zbiorów danych do kształtu, który pragniemy zaprezentować, ale również wykorzystania odpowiednich narzędzi do wizualizacji danych.
-Strony WWW oraz aplikacje internetowe, są to doskonałe miejsca prezentacji danych a język do tworzenia aplikacji - JavaScript jest bogaty w narzędzia nie tylko do Business Intelligence ale i do Machine Learning i innych dziedzin data science.
-Celem szkolenia jest przekazanie wiedzy na temat wizualizacji danych za pomocą takich bibliotek jak d3.js, która daje największe możliwości jeśli chodzi o prezentowanie zależności między danymi. W czasie szkolenia poruszone zostaną również tematy związane z Machine Learning w ciągle niedocenianym języku jakim jest JavaScript.
+Strony WWW oraz aplikacje internetowe są to doskonałe miejsca prezentacji danych, a język do tworzenia aplikacji - JavaScript jest bogaty w narzędzia nie tylko do Business Intelligence, ale i do Machine Learning i innych dziedzin Data Science.
+Celem szkolenia jest przekazanie wiedzy na temat wizualizacji danych za pomocą takich bibliotek jak d3.js, która daje największe możliwości, jeśli chodzi o prezentowanie zależności między danymi. W czasie szkolenia poruszone zostaną również tematy związane z Machine Learning w ciągle niedocenianym języku jakim jest JavaScript.
 
 `,
 
@@ -23,7 +23,7 @@ Od uczestników szkolenia wymagana jest umiejętność programowania w dowolnym 
 
 
     skills: `
-Uczestnicy po ukończonym szkoleniu będą znać techniki wizualizacji danych w przeglądarce i będą wiedzieć jak się dalej rozwijać w tym kierunku.
+Uczestnicy po ukończonym szkoleniu będą znać techniki wizualizacji danych w przeglądarce i będą wiedzieć, jak dalej rozwijać się w tym kierunku.
 
 `
 };
