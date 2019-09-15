@@ -10,7 +10,7 @@ Szkolenie adresowane jest do programistów znających dowolny język programowan
     list: graphql.list,
 
     skills: `
-Po ukończonym szkoleniu uczestnicy będą posiadać wiedzę na temat tego w jaki sposób wykorzystać język zapytań GraphQL w aplikacjach webowych. Jak tworzyć odpowiednie zapytania, w jaki sposób dbać o bezpieczeństwo i jakich narzędzi używać przy implementowaniu aplikacji opierających się o GraphQL’a.
+Po ukończonym szkoleniu uczestnicy będą posiadać wiedzę na temat tego, w jaki sposób wykorzystać język zapytań GraphQL w aplikacjach webowych, jak tworzyć odpowiednie zapytania, w jaki sposób dbać o bezpieczeństwo i jakich narzędzi używać przy implementowaniu aplikacji opierających się o GraphQL’a.
 
 
 `
