@@ -38,7 +38,7 @@ Szkolenie adresowane jest do programistów znających język JavaScript.`,
         `Web workers`,
         `Service workers`],
     skills: `
-Po ukończonym szkoleniu uczestnicy będą znali zagadnienia związane z architekturą aplikacji. Poznają również szereg narzędzi, które pozwalają na dużo łatwiejsze pisanie programów frontendowych 
+Po ukończonym szkoleniu uczestnicy będą znali zagadnienia związane z architekturą aplikacji. Poznają również szereg narzędzi, które pozwalają na dużo łatwiejsze pisanie programów frontendowych. 
 
 `
 }
