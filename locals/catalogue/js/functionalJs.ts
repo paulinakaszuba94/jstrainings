@@ -12,6 +12,6 @@ Szkolenie adresowane jest do programistów, którzy znają podstawy języka Java
 
 
     skills: `
-Po zakończonym szkoleniu uczestnicy będą znać funkcyjne możliwości języka JavaScript, umieć je wykorzystać w praktyce oraz będą świadomi jakie wady i zalety takie podejście za sobą niesie.`
+Po zakończonym szkoleniu uczestnicy będą znać funkcyjne możliwości języka JavaScript, będą umieć je wykorzystać w praktyce oraz będą świadomi, jakie wady i zalety takie podejście za sobą niesie.`
 
 }
