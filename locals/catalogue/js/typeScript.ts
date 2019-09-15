@@ -13,7 +13,7 @@ Szkolenie adresowane jest do programistów, którzy znają podstawy języka Java
 
 
     skills: `
-Po zakończonym szkoleniu uczestnicy będą swobodnie posługiwać się językiem TypeScript, będą wiedzieli w jaki sposób można pisać aplikacje frontendowe używając praktyk znanych z klasycznych języków obiektowych takich jak Java.
+Po zakończonym szkoleniu uczestnicy będą swobodnie posługiwać się językiem TypeScript, będą wiedzieli w jaki sposób można pisać aplikacje frontendowe, używając praktyk znanych z klasycznych języków obiektowych, takich jak Java.
 
 
 `
