@@ -1,6 +1,6 @@
 export const restTraining = {
     name: `REST - od nowicjusza do geniusza`,
-    description: `W czasie szkolenia uczestnicy dowiedzą się na jakich zasadach dziala architektura REST, jakie są jej założenia i w jaki sposób tworzyć poprawne API oparte o tę architekturę.`,
+    description: `W czasie szkolenia uczestnicy dowiedzą się, na jakich zasadach dziala architektura REST, jakie są jej założenia i w jaki sposób tworzyć poprawne API, oparte o tę architekturę.`,
 
     profile: `
 Od uczestników szkolenia wymagana jest umiejętność programowania w dowolnym języku.
