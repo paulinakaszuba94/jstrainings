@@ -1,6 +1,8 @@
+import {react} from "../../trainings/react";
+
 export const reactTraining = {
     name: `React.js`,
-    description: `
+    description: `${react.detailDescription} 
 Celem szkolenia jest nauczenie od podstaw biblioteki React.js oraz praktycznego jej wykorzystania do tworzenia nowoczesnych aplikacji internetowych. Uczestnicy dowiedzą się w jaki sposób dzielić aplikacje na komponenty oraz na czym polegają współczesne architektury do zarządzania stanem aplikacji - takie jak React hooks, Redux czy MobX i czym różnią się od klasycznych podejść  typu Model-View-Controller.
 Po ukończonym szkoleniu uczestnicy będą w stanie samodzielnie pisać aplikacje wykorzystujące bibliotekę React. `,
 

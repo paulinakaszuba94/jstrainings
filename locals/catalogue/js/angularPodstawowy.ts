@@ -1,6 +1,8 @@
+import {angular} from "../../trainings/angular";
+
 export const angularBasicTraining = {
     name: `Angular: kurs podstawowy`,
-    description: `
+    description: `${angular} 
 Celem szkolenia jest nauczenie uczestników w jaki sposób budować aplikacje w oparciu o framework Angular. Uczestnicy poznają mechanizmy frameworka co pozwoli im na samodzielną pracę w tym środowisku. Dodatkowo poznają struktury architektoniczne, które mogą zostać zaimplementowane w angularowych aplikacjach. 
 `,
 

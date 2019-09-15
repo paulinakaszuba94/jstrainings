@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var functional_1 = require("../../trainings/functional");
 exports.functionalJs = {
     name: "JavaScript: programowanie funkcyjne",
-    description: functional_1.functional.mainDescription,
+    description: functional_1.functional.mainDescription + "\n" + functional_1.functional.detailDescription,
     profile: "\nSzkolenie adresowane jest do programist\u00F3w, kt\u00F3rzy znaj\u0105 podstawy j\u0119zyka JavaScript  - posiadaj\u0105 wiedz\u0119 na poziomie uko\u0144czonego szkolenia JavaScript kurs podstawowy (dla programist\u00F3w).",
     duration: 8,
     list: functional_1.functional.list,

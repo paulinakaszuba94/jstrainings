@@ -2,7 +2,7 @@ import {functional} from "../../trainings/functional";
 
 export const functionalJs = {
     name: `JavaScript: programowanie funkcyjne`,
-    description: functional.mainDescription,
+    description: functional.mainDescription + "\n" + functional.detailDescription,
 
     profile: `
 Szkolenie adresowane jest do programistów, którzy znają podstawy języka JavaScript  - posiadają wiedzę na poziomie ukończonego szkolenia JavaScript kurs podstawowy (dla programistów).`,

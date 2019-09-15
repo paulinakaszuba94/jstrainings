@@ -28,6 +28,7 @@ var neuralNetworks_1 = require("../locals/catalogue/big-data/neuralNetworks");
 var vue_1 = require("../locals/catalogue/js/vue");
 var functionalAndReactiveJSandJava_1 = require("../locals/catalogue/js/functionalAndReactiveJSandJava");
 var _2020___rok_JavaScriptu__Angular__react__vue_1 = require("../locals/catalogue/js/2020 - rok JavaScriptu (Angular, react, vue)");
+var webcomponents_1 = require("../locals/catalogue/js/webcomponents");
 var path = require('path');
 var fs = require('fs');
 //joining path of directory
@@ -47,6 +48,7 @@ var jsTrainings = [_2020___rok_JavaScriptu__Angular__react__vue_1.year2020, java
     architekturaAplikacjiFrontendowych_1.frontendArchitectureTraining, es6_1.es6Training,
     testyPodstawowe_1.testsBasicTraining,
     // testsAdvancedTraining,
+    webcomponents_1.webcomponentsTraining,
     wstepDoProgramowania_1.introductionToProgrammingTraining,
     webAssemblyTraining_1.webAssemblyTraining, JavaScriptDlaProgramistowJava_1.javaScriptForJavaDevsTraining, progressiveAppRewritting_1.progressiveAppRewriting];
 var businessTraining = [wystapieniaPubliczne_1.publicSpeakingTraining, komunikacjaZDevelopmentem_1.communicationTraining];

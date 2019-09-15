@@ -24,7 +24,7 @@ Od uczestników szkolenia wymagana jest umiejętność programowania w dowolnym 
 
 
     skills: `
-Uczestnicy po ukończonym szkoleniu będą znać techniki wizualizacji danych w przeglądarce i będą wiedzieć jak się dalej rozwijać w tym kierunku.
+Uczestnicy po ukończonym szkoleniu będą znać możliwości JavaScriptu w świecie sieci neuronowych. Będą w stanie sprawnie używać bibliotek tensorflow.js oraz brain.js do tworzenia własnych projektów.
 
 `
 };

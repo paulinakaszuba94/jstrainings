@@ -16,5 +16,5 @@ exports.neuralNetworksTraining = {
         "Transfer learning",
         "Rozpoznawanie tekstu"
     ],
-    skills: "\nUczestnicy po uko\u0144czonym szkoleniu b\u0119d\u0105 zna\u0107 techniki wizualizacji danych w przegl\u0105darce i b\u0119d\u0105 wiedzie\u0107 jak si\u0119 dalej rozwija\u0107 w tym kierunku.\n\n"
+    skills: "\nUczestnicy po uko\u0144czonym szkoleniu b\u0119d\u0105 zna\u0107 mo\u017Cliwo\u015Bci JavaScriptu w \u015Bwiecie sieci neuronowych. B\u0119d\u0105 w stanie sprawnie u\u017Cywa\u0107 bibliotek tensorflow.js oraz brain.js do tworzenia w\u0142asnych projekt\u00F3w.\n\n"
 };

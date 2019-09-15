@@ -29,6 +29,7 @@ import {neuralNetworksTraining} from "../locals/catalogue/big-data/neuralNetwork
 import {vueTraining} from "../locals/catalogue/js/vue";
 import {functionalAnd} from "../locals/catalogue/js/functionalAndReactiveJSandJava";
 import {year2020} from "../locals/catalogue/js/2020 - rok JavaScriptu (Angular, react, vue)";
+import {webcomponentsTraining} from "../locals/catalogue/js/webcomponents";
 
 const path = require('path');
 const fs = require('fs');
@@ -50,6 +51,7 @@ const jsTrainings = [year2020, jsBasicTraining, jsAdvancedTraining, typeScriptTr
     frontendArchitectureTraining, es6Training,
     testsBasicTraining,
     // testsAdvancedTraining,
+    webcomponentsTraining,
     introductionToProgrammingTraining,
     webAssemblyTraining, javaScriptForJavaDevsTraining, progressiveAppRewriting];
 const businessTraining = [publicSpeakingTraining, communicationTraining];
