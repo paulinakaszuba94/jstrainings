@@ -2,9 +2,9 @@ export const angular = {
     "id": "angular",
     "list": ["One way data binding vs two way data binding", "Application architecture focused on components", "Web components", "TypeScript", "Directives", "Pipes", "Dependency Injection", "Zones", "Decorators", "Incremental DOM", "Shadow DOM", "Flux-alike architecture vs MV*", "Event Emitters", "Components communication", "Reactive Programming with Angular", "Styleguides", "Debugging", "Advanced design patterns", "Testing", "Practical exercises"],
     "detailDescription": " Szkolenie obejmuje tematy związane z projektowaniem i implementowaniem skalowalnych i" +
-        " przejrzystych Angularowych aplikacji. Angular jest frameworkiem pozwalającym na implementację szeregu" +
+        " przejrzystych angularowych aplikacji. Angular jest frameworkiem pozwalającym na implementację szeregu" +
         " różnych architektur, jak również wykorzystuje dodatkowe narzędzia, takie jak TypeScript oraz RxJS. W" +
-        " związku z tym konieczne jest poznanie zarówno czysto Angularowej semantyki, jak i technologii, które są" +
+        " związku z tym konieczne jest poznanie zarówno czysto angularowej semantyki, jak i technologii, które są" +
         " razem z" +
         " Angularem wykorzystywane.",
     "name": "Angular",
