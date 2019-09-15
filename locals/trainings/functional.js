@@ -7,7 +7,7 @@ exports.functional = {
     "name": "Zaawansowany funkcyjny JavaScript",
     "imageStyle": { "border": "1px solid" },
     "en": {},
-    "mainDescription": " Paradygmat programowania funkcyjnego jest coraz cześciej, używany w JavaScripcie. Czyste" +
+    "mainDescription": " Paradygmat programowania funkcyjnego jest coraz cześciej używany w JavaScripcie. Czyste" +
         " funkcje, niemutowalność stanu, składanie funkcji, funkcje wyższego rzędu, monady... to wszystko" +
         " zagadnienia, które z łatwością mogą zostać zaimplementowane w JavaScripcie. Zrozumienie podejścia" +
         " funkcyjnego daje programiście dużo większe możliwości, a kod zaimplementowany w ten sposób jest" +

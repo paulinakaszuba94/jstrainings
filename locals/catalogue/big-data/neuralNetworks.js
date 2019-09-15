@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.neuralNetworksTraining = {
     name: "Sieci neuronowe i uczenie maszynowe z tensorflow.js i brain.js",
-    description: "Sieci neuronowe i uczenie maszynowe s\u0105 to tematy, kt\u00F3re w ostatnich latach zdoby\u0142y olbrzymi\u0105 popularno\u015B\u0107. W czasie szkolenia uczestnicy dowiedz\u0105 si\u0119 w jaki spos\u00F3b u\u017Cywa\u0107 dost\u0119pnych bibliotek napisanych w JavaScript, aby w prosty spos\u00F3b przeprowadza\u0107 skomplikowane operacje.\n\n",
+    description: "Sieci neuronowe i uczenie maszynowe s\u0105 to tematy, kt\u00F3re w ostatnich latach zdoby\u0142y olbrzymi\u0105 popularno\u015B\u0107. W czasie szkolenia uczestnicy dowiedz\u0105 si\u0119, w jaki spos\u00F3b u\u017Cywa\u0107 dost\u0119pnych bibliotek napisanych w JavaScript, aby w prosty spos\u00F3b przeprowadza\u0107 skomplikowane operacje.\n\n",
     profile: "\nOd uczestnik\u00F3w szkolenia wymagana jest umiej\u0119tno\u015B\u0107 programowania w dowolnym j\u0119zyku.\n",
     duration: 2,
     list: [

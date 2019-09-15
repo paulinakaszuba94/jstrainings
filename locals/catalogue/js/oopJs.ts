@@ -1,8 +1,7 @@
 import {javascript} from "../../trainings/javascript";
 
 export const oopJsTraining = {
-    name: `Object-oriented programming
-w JavaScript`,
+    name: `Object-oriented programming w JavaScript`,
     description: `
 Celem szkolenia jest przekazanie informacji na temat mechanizmów języka JavaScript pozwalających na tworzenie skalowalnego i wydajnego oprogramowania stosując techniki OOP.`,
     profile: `

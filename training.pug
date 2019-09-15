@@ -47,8 +47,8 @@ nav#mainNav.navbar.navbar-default.navbar-fixed-top.affix-2
         // /.navbar-collapse
     // /.container-fluid
 section#trainings.overflow-hidden.no-padding-bottom
-    .container
-        .col-lg-12.display-flex.relative
+    .container.no-padding-mobile
+        .col-lg-12.display-flex
             .flex-1
                 .col-lg-12.text-center
                     h1.section-heading #{training.name}
@@ -59,14 +59,14 @@ section#trainings.overflow-hidden.no-padding-bottom
                     img.max-height(style={'margin-bottom': '20px'}, src=training.src)
                 // Button trigger modal
             if training.lists
-                .flex-1(style={'align-items': 'center'})
+                .flex-1(style={'align-items': 'center'}).no-padding-mobile
                     .general #{general.topics2}:
                     .panel-group.accordion#accordion(role="tablist" aria-multiselectable="true")
                             each trainingObj, index in training.lists
                                 .panel.panel-default
                                     .panel-heading(role="tab" id="heading" + index)
-                                            h4.panel-title
-                                                a.collapsed(role='button' data-toggle='collapse' data-parent='#accordion' data-target="#collapse" + index  href="#collapse" + index aria-expanded=!index aria-controls="collapseOne" + index)
+                                            h4.panel-title(id=trainingObj.name.split(' ').join(''))
+                                                a.collapsed(role='button' data-toggle='collapse' data-parent='#accordion' data-target="#collapse" + index  href='#trainings' aria-expanded=!index aria-controls="collapseOne" + index)
                                                     | #{trainingObj.name}
                                     .panel-collapse.collapse(id='collapse' + index role="tabpanel" aria-labelledby="heading" + index)
                                         .panel-body
@@ -83,7 +83,7 @@ section#trainings.overflow-hidden.no-padding-bottom
                                     li #{topic}
 
 
-section.bg-primary.small-padding.navbar-fixed-bottom
+section.bg-primary.small-padding.navbar-fixed-bottom.block-on-mobile.padding-mobile
     .container.display-flex.align-center
         .flex-1
             h3.thin #{general.allTrainings}
@@ -91,7 +91,7 @@ section.bg-primary.small-padding.navbar-fixed-bottom
         .display-flex.right.flex-1.align-right
             a.navbar-brand.page-scroll.btn.btn-primary.btn-lg.btn-custom(href='../' + index + "#contact") #{general.contactWithMe}
 
-.placeholder-big
+.placeholder-big.hide-on-mobile
 // jQuery
 script(src='../vendor/jquery/jquery.min.js')
 // Bootstrap Core JavaScript

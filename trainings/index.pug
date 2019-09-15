@@ -40,20 +40,20 @@ head
                 each training, index in trenType.trainings
                     div
                         h5
-                            a(href=`#${training.name}`
+                            a(href=`#${training.name.split(' ').join('')}`
                                 style={'color':'black'}) #{training.name}
         a.no-padding.btn.btn-secondary.btn-xl.page-scroll(href='./trainings.pdf') Wersja pdf
 
-#trainings.container.width-full
+#trainings.container.width-full.no-padding-mobile
     each training, index in trainings
         - const [flex, imgContainerClass = ''] = ['display-flex']
-        .double-line.col-lg-12(id=training.name)
+        .double-line.col-lg-12(id=training.name.split(' ').join(''))
 
         .col-lg-12.align-center.sr-icons-1.relative(class=flex + ` sr-icons-${training.index}`)
-            .container
-                .flex-1(class=imgContainerClass)
+            .container.no-padding-mobile
+                .flex-1(class=imgContainerClass).no-padding-mobile
                     .margin-auto
-                        .col-lg-12.display-flex.relative
+                        .col-lg-12.display-flex.relative.no-padding-mobile
                             .flex-1
                                 .col-lg-12.text-center
                                     h1.section-heading #{training.name}
@@ -78,7 +78,7 @@ head
                                                         a.collapsed(role='button' data-toggle='collapse' data-parent='#accordion' data-target="#collapse" + index  href="#collapse" + index aria-expanded=!index aria-controls="collapseOne" + index)
                                                             | #{trainingObj.name}
                                                 .panel-collapse.collapse(id='collapse' + index role="tabpanel" aria-labelledby="heading" + index)
-                                                    .panel-body
+                                                    .panel-body.no-padding-mobile
                                                         ul
                                                             each topic in trainingObj.list
                                                                 li #{topic}
@@ -86,7 +86,7 @@ head
                                 .flex-1
                                     .panel.panel-default
                                         .panel-heading #{general.topics}
-                                        .panel-body
+                                        .panel-body.no-padding-mobile
                                             ul
                                                 each topic in training.list
                                                     li #{topic}

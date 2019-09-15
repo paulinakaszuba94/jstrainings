@@ -638,7 +638,7 @@ h3 {
 }
 
 .placeholder-big {
-  height: 400px;
+  height: 200px;
   width: 100%;
 }
 
@@ -684,4 +684,25 @@ h3.thin {
 }
 .btn.btn-secondary.btn-xl.no-padding {
   padding: 0;
+}
+
+@media (max-width: 600px) {
+  .no-padding-mobile {
+   padding: 0 !important;
+  }
+  .block-on-mobile {
+    display: block;
+  }
+  .position-initial-on-mobile {
+    position: initial;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .padding-on-mobile {
+    padding: 20px;
+  }
+  .small-padding-on-mobile {
+    padding: 10px 10px 0 0;
+  }
 }

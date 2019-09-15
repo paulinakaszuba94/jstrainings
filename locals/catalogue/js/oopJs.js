@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var javascript_1 = require("../../trainings/javascript");
 exports.oopJsTraining = {
-    name: "Object-oriented programming\nw JavaScript",
+    name: "Object-oriented programming w JavaScript",
     description: "\nCelem szkolenia jest przekazanie informacji na temat mechanizm\u00F3w j\u0119zyka JavaScript pozwalaj\u0105cych na tworzenie skalowalnego i wydajnego oprogramowania stosuj\u0105c techniki OOP.",
     profile: "\nSzkolenie adresowane jest do programist\u00F3w, kt\u00F3rzy znaj\u0105 podstawy j\u0119zyka JavaScript  - posiadaj\u0105 wiedz\u0119 na poziomie uko\u0144czonego szkolenia JavaScript kurs podstawowy (dla programist\u00F3w).",
     duration: 2,
