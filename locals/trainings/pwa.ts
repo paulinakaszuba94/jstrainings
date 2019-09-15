@@ -3,7 +3,7 @@ export const pwa = {
     "list": ["Mechanika nowoczesnych systemów JavaScriptowych", "WebWorkers w szczegółach", "Service Worker", "Progressive enhancement", "Manifest JSON", "Nieblokujące operacje", "Integracja z systemem operacyjnym"],
     "detailDescription": "Celem szkolenia jest przekazanie wiedzy na temat technologii związanych z progressive web" +
         " applications. Uczestnicy dowiedzą się, w jaki sposób budować skalowalne aplikacje, które z poziomu" +
-        " użytkownika będą wyglądały jak aplikacje natywne",
+        " użytkownika będą wyglądały jak aplikacje natywne.",
     "name": "Web Workers i Progressive Web Apps",
     "en": {},
     "mainDescription": " W dzisiejszym świecie za pomocą JavaScriptu można stworzyć aplikacje webowe, które mogą być" +
