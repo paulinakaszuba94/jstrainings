@@ -20,6 +20,6 @@ Szkolenie adresowane jest do programistów znających język Java.`,
 
 
     skills: `
-Po ukończonym szkoleniu uczestnicy będą czuć się znacznie pewniej w kodzie JavaScript, będą znali jego mechanikę i będą wiedzieć, w jaki sposób unikać typowych błędów
+Po ukończonym szkoleniu uczestnicy będą czuć się znacznie pewniej w kodzie JavaScript, będą znali jego mechanikę i będą wiedzieć, w jaki sposób unikać typowych błędów.
 `
 }
