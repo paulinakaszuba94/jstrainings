@@ -1,0 +1,27 @@
+\contentsline {section}{2020 - rok JavaScriptu (Angular, react, vue)}{1}{section*.1}% 
+\contentsline {section}{JavaScript: kurs podstawowy (dla programist\IeC {\'o}w)}{2}{section*.7}% 
+\contentsline {section}{JavaScript: kurs zaawansowany}{4}{section*.13}% 
+\contentsline {section}{TypeScript}{6}{section*.19}% 
+\contentsline {section}{Angular: kurs podstawowy}{8}{section*.25}% 
+\contentsline {section}{Angular: kurs zaawansowany}{10}{section*.31}% 
+\contentsline {section}{Angular: kompedium wiedzy (TypeScript, RxJS)}{12}{section*.37}% 
+\contentsline {section}{React.js}{14}{section*.43}% 
+\contentsline {section}{Vue.js jako nowoczesne narz\IeC {\k e}dzie do budowania aplikacji webowych}{16}{section*.49}% 
+\contentsline {section}{WebWorkers i Progressive Web Apps}{17}{section*.55}% 
+\contentsline {section}{Node.js: kurs podstawowy (dla programist\IeC {\'o}w front-end)}{18}{section*.61}% 
+\contentsline {section}{Object-oriented programming w JavaScript}{20}{section*.67}% 
+\contentsline {section}{JavaScript: Programowanie funkcyjne i reaktywne}{22}{section*.73}% 
+\contentsline {section}{Architektura aplikacji frontendowych}{24}{section*.79}% 
+\contentsline {section}{ES6+}{26}{section*.85}% 
+\contentsline {section}{Testy automatyczne aplikacji webowych dla programist\IeC {\'o}w }{28}{section*.91}% 
+\contentsline {section}{Wst\IeC {\k e}p do programowania z JavaScript}{30}{section*.97}% 
+\contentsline {section}{Wykorzystywanie kodu Java, Rust, C++ w przegl\IeC {\k a}darce - wprowadzenie do WebAssembly}{31}{section*.103}% 
+\contentsline {section}{JavaScript dla programist\IeC {\'o}w Java}{32}{section*.109}% 
+\contentsline {section}{Progresywne przepisywanie aplikacji, zmniejszanie d\IeC {\l }ugu technologicznego i zasady clean code}{33}{section*.115}% 
+\contentsline {section}{GraphQL}{34}{section*.121}% 
+\contentsline {section}{REST - od nowicjusza do geniusza}{35}{section*.127}% 
+\contentsline {section}{regExp - wyra\IeC {\.z}enia regularne, zosta\IeC {\'n} mistrzem!}{36}{section*.133}% 
+\contentsline {section}{Business Intelligence, wizualizacja big data w aplikacjach internetowych}{37}{section*.139}% 
+\contentsline {section}{Sieci neuronowe i uczenie maszynowe z tensorflow.js i brain.js}{39}{section*.145}% 
+\contentsline {section}{Prezentowanie tre\IeC {\'s}ci technicznych}{40}{section*.151}% 
+\contentsline {section}{Komunikacja z developmentem (dla biznesu)}{41}{section*.157}% 

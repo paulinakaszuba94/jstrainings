@@ -1,0 +1,1551 @@
+
+ \documentclass{article}[10pt]
+\usepackage{changepage} 
+\usepackage[T1]{fontenc}
+\usepackage{sectsty}
+\usepackage{fancyhdr}
+\usepackage[sfdefault]{roboto}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage[tocflat]{tocstyle}
+\usetocstyle{standard}
+\usepackage[document]{ragged2e}
+\usepackage{blindtext}
+
+% Redefinition of ToC command to get centered heading
+\makeatletter
+\renewcommand\tableofcontents{%
+  \null\hfill\textbf{\Large\contentsname}\hfill\null\par
+  \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+  \@starttoc{toc}%
+}
+\makeatother
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\pagenumbering{arabic}
+\sectionfont{\fontsize{24}{15}\fontseries{t}\selectfont}
+\subsectionfont{\fontsize{14}{15}\fontseries{l}\selectfont}
+
+\renewcommand*\contentsname{Szkolenia:}
+
+\pagestyle{fancy}
+\fancyhead{}
+
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+
+\renewcommand{\headrulewidth}{0pt}
+\rhead{\fontsize{10}{8} \selectfont www.jstrainings.com} 
+
+\setcounter{secnumdepth}{0} % sections are level 1
+
+\begin{document}
+
+	\pagestyle{empty} %get rid of header/footer for toc page
+    \tableofcontents %put toc in
+    \cleardoublepage %start new page
+    \pagestyle{fancy} % put headers/footers back on
+    \setcounter{page}{1} %reset the page counter
+
+	\newpage
+    
+	\section{2020 - rok JavaScriptu (Angular, react, vue)}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+W czasie szkolenia uczestnicy będą mieli szansę dowiedzieć się jak działąją obecnie najpopularniejsze biblitoeki/frameworki na rynku aplikacji front-endowych. Skupimy się na ich wadach, zaletach, podobieństwach i różnicach tak aby uczestnicy mogli podejmować świadome decyzje dotyczące wyboru technologii do projektu.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających język JavaScript
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Architektura komponentowa
+		\item Narzędzia do zarządzania stanem aplikacji
+		\item virtual DOM
+		\item Komunikacja komponentów
+		\item server-side rendering
+		\item TypeScript vs JavaScript
+		\item MVVM vs Flux
+		\item Hooks vs Redux
+		\item Reaktywne updaty
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym kursie uczestnicy będą znali zaawansowane mechanizmy frameworka. Będą wiedzieli jak optymalizować swoje aplikacje, jak pisać czysty, wydajny kod i jak tworzyć przejrzyste architektury angularowych aplikacji.
+
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{JavaScript: kurs podstawowy (dla programistów)}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Celem szkolenia jest przekazanie wiedzy na temat mechanizmów działania języka JavaScript.
+Uczestnicy nauczą się budować aplikacje w oparciu o najnowsze standardy oraz poznają funkcyjne i obiektowe możliwości języka. Dostaną również szereg informacji na temat tego w jaki sposób pisać skalowalny kod i jak używać współczesnych wzorców projektowych takich jak
+MVC, MVVM, Flux. Dzięki przekazanej wiedzy uczestnicy będą rozumieć działanie języka co pozwoli na szybki dalszy rozwój oraz unikanie najczęstszych błędów przy tworzeniu aplikacji internetowych.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie przeznaczone jest dla osób, znających dowolny język programowania. Dla tych, którzy dopiero zaczynają swoją przygodę z programowaniem sporządzony został kurs - Wstęp do programowania z JavaScript
+
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Standardy ECMAScript
+		\item 
+Typy zmiennych
+		\item 
+Zasięg zmiennych
+		\item 
+Hoisting
+		\item 
+Słabe typowanie i automatyczne rzutowanie
+		\item 
+Sterowanie przepływem programu
+		\item 
+Kontrolowanie czasu
+		\item 
+Mechanizmy funkcyjne i obiektowe języka JavaScript
+		\item 
+Kontekst (this)
+		\item 
+Łańcuchy prototypów
+		\item 
+Asynchroniczność (Callback, Promise, async/await)
+		\item 
+ECMAScript Modules
+		\item 
+Kolekcje
+		\item 
+Zdarzenia w JavaScript (Event loop)
+		\item 
+Komunikacja z Document Object Model (DOM)
+		\item 
+Walidacja formularzy
+		\item 
+Komunikacja z serwerem - protokół REST
+		\item 
+Architektury aplikacji frontendowych (MV*, flux)
+		\item 
+Debugowanie, użycie DevTools
+		\item 
+Obsługa wyjątków
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po zakończonym szkoleniu uczestnicy będą znać podstawy tworzenia aplikacji internetowych. Będą znali różne podejścia programistyczne i będą wiedzieć w jaki sposób będą mogli w prosty sposób rozwijać się dalej w obranym kierunku.
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{JavaScript: kurs zaawansowany}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest przekazanie informacji na temat zaawansowanych mechanizmów działania języka JavaScript. Uczestnicy dowiedzą się w jaki sposób mogą tworzyć Web Components bez wsparcia żadnego frameworka, poznają sposób działania nowoczesnych featurów języka takich jak np. generatory, iterables, proxies, pogłębią informacje na temat mechanizmów takich jak prototypy, zmiana kontekstu jak również dostaną szereg wiadomości na temat asynchroniczności, funkcyjnego podejścia i silników przeglądarek. Nabyta wiedza pozwoli pisać bardziej ekspresywny, czysty i wydajny kod.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów, którzy znają podstawy języka JavaScript  - posiadają wiedzę na poziomie ukończonego szkolenia JavaScript kurs podstawowy (dla programistów).
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Zaawansowane funkcyjne mechanizmy języka
+		\item higher-order functions
+		\item currying
+		\item partially applied functions
+		\item transductions
+		\item Zaawansowane definiowane propertiesów
+		\item Gettery
+		\item Settery
+		\item Propertiesy niemutowalne
+		\item Prototypy w szczegółach
+		\item Mechanizmy ES6 w szczegółach
+		\item Destructuring i deep destructuring
+		\item Rest/spread operator
+		\item Symbols
+		\item Generators
+		\item Iterables
+		\item Async/await
+		\item ES6 Promises
+		\item String templates tags
+		\item Proxy
+		\item Reflect
+		\item Web components
+		\item SIlniki JavaScript oraz alokowanie pamięci
+		\item Wzorce architektoniczne
+		\item MV* (MVC, MVVM, MVP)
+		\item MVI
+		\item Flux (Redux, MobX)
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą znać szczegółowo zasady działania prototypów oraz innych nisko poziomowych mechanizmów w JavaScripcie, umieć wykorzystać najnowocześniejsze featury języka oraz rozumieć nowoczesne wzorce architektoniczne.
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{TypeScript}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest przekazanie wiedzy na temat języka TypeScript. Uczestnicy dowiedzą się w jaki sposób mogą polepszyć jakość kodu dodając do niego typy, również w postaci skomplikowanych struktur. Nauczą się również korzystać featurów, które udostępnia TypeScript - nauczą się np. w jaki sposób pisać dekoratory klas, metod oraz pól. Dzięki temu szkoleniu Dzięki temu szkoleniu uczestnicy będą wiedzieć w jaki sposób zaadoptować techniki znane z klasycznych języków programowania takich jak Java do pisania aplikacji frontendowych.
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów, którzy znają podstawy języka JavaScript  - posiadają wiedzę na poziomie ukończonego szkolenia JavaScript kurs podstawowy (dla programistów).
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	1 dzien
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Silne typowanie i słabe typowanie
+		\item Typy podstawowe
+		\item Typy złożone
+		\item Typowanie funkcji
+		\item Interfejsy
+		\item Klasy
+		\item Klasy abstrakcyjne
+		\item Dziedziczenie
+		\item Enkapsulacja
+		\item Dekoratory
+		\item Generic types
+		\item Intersection types
+		\item Overloading
+		\item Enum
+		\item Literal types
+		\item Type guards
+		\item Non-nullable-types
+		\item Record
+		\item Partial / Required
+		\item Pick / Omit
+		\item Union
+		\item Discriminated Union
+		\item keyof and Lookup Types
+		\item Mapped types
+		\item Conditional types
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po zakończonym szkoleniu uczestnicy będą swobodnie posługiwać się językiem TypeScript, będą wiedzieli w jaki sposób można pisać aplikacje frontendowe używając praktyk znanych z klasycznych języków obiektowych takich jak Java.
+
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Angular: kurs podstawowy}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest nauczenie uczestników w jaki sposób budować aplikacje w oparciu o framework Angular. Uczestnicy poznają mechanizmy frameworka co pozwoli im na samodzielną pracę w tym środowisku. Dodatkowo poznają struktury architektoniczne, które mogą zostać zaimplementowane w angularowych aplikacjach. 
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających język JavaScript.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Component-based architecture
+		\item Składowe języka TypeScript
+		\item Angular-cli
+		\item Komponenty
+		\item Shadow DOM
+		\item Dekoratory komponentów
+		\item Dyrektywy
+		\item Dyrektywy wbudowane (NgIf, NgSwitch, NgStyle, NgClass, NgFor, NgNonBindable)
+		\item Modele
+		\item Pipes
+		\item Tworzenie własnych dyrektyw i pipes
+		\item Cykl życia komponentu
+		\item Dependency Injection
+		\item Podstawy Change Detection i zone.js
+		\item Formularze (Template driven oraz Model driven)
+		\item Event Emitters
+		\item Podstawy pracy z Observables i Rx.js
+		\item Komunikacja z serwerem
+		\item Routing
+		\item Tworzenie aplikacji typu Single Page Application
+		\item Testowanie komponentów (unit-tests)
+		\item Wstęp do wzorców architektonicznych
+		\item MV* (MVC, MVVM, MVP)
+		\item MVI
+		\item Flux (ngrx)
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą potrafili tworzyć aplikacje używając frameworka Angular. Będą posiadali informacje na temat możliwych architektur aplikacji oraz głównych mechanizmów działania frameworka. 
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Angular: kurs zaawansowany}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest przekazanie informacji na temat zaawansowanych mechanizmów działania frameworka Angular. Uczestnicy dowiedzą się w jaki sposób tworzyć m.in. własne dyrektywy, dynamiczne komponenty, komponenty reaktywne, zagnieżdżony routing, dostaną szereg informacji na temat performance’u i możliwych memory leak’ów oraz dowiedzą się w jaki sposób mogą użyć Angulara razem z nowoczesnymi podejściami do zarządzania stanem takimi jak Flux czy Model-View-Intent.
+Uczestnicy poznają także w szczegółach zasadę pracy z Observables i nauczą się operować na strumieniach danych.
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających podstawy frameworka Angular.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Lazy loading
+		\item Dynamiczne tworzenie komponentów
+		\item Tworzenie bardziej skomplikowanych dyrektyw
+		\item Element Host
+		\item @ViewChild and @ViewChildren
+		\item Hot reload
+		\item Routing zagnieżdżony
+		\item Routing guards
+		\item Animacje
+		\item Dzielenie angularowej aplikacji na moduły
+		\item Incremental DOM
+		\item Reaktywne komponenty
+		\item Strategie change detection w szczegółach
+		\item Performance
+		\item AiT i JiT
+		\item End-to-end tests
+		\item Angular Material Design
+		\item Implementacja wzorców architektonicznych w angularze
+		\item MV* (MVC, MVVM, MVP)
+		\item Model-View-Intent
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym kursie uczestnicy będą znali zaawansowane mechanizmy frameworka. Będą wiedzieli jak optymalizować swoje aplikacje, jak pisać czysty, wydajny kod i jak tworzyć przejrzyste architektury angularowych aplikacji.
+
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Angular: kompedium wiedzy (TypeScript, RxJS)}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest nauczenie uczestników w jaki sposób budować aplikacje w oparciu o framework Angular. Uczestnicy poznają mechanizmy frameworka co pozwoli im na samodzielną pracę w tym środowisku. Dodatkowo poznają struktury architektoniczne, które mogą zostać zaimplementowane w angularowych aplikacjach. 
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających język JavaScript, chcących się nauczyć Reacta od podstaw.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	5 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Component-based architecture
+		\item Składowe języka TypeScript
+		\item Angular-cli
+		\item Komponenty
+		\item Shadow DOM
+		\item Dekoratory komponentów
+		\item Dyrektywy
+		\item Dyrektywy wbudowane (NgIf, NgSwitch, NgStyle, NgClass, NgFor, NgNonBindable)
+		\item Modele
+		\item Pipes
+		\item Tworzenie własnych dyrektyw i pipes
+		\item Cykl życia komponentu
+		\item Dependency Injection
+		\item Podstawy Change Detection i zone.js
+		\item Formularze (Template driven oraz Model driven)
+		\item Event Emitters
+		\item Podstawy pracy z Observables i Rx.js
+		\item Komunikacja z serwerem
+		\item Routing
+		\item Tworzenie aplikacji typu Single Page Application
+		\item Testowanie komponentów (unit-tests)
+		\item Wstęp do wzorców architektonicznych
+		\item MV* (MVC, MVVM, MVP)
+		\item MVI
+		\item Flux (ngrx)
+		\item Lazy loading
+		\item Dynamiczne tworzenie komponentów
+		\item Tworzenie bardziej skomplikowanych dyrektyw
+		\item Element Host
+		\item @ViewChild and @ViewChildren
+		\item Hot reload
+		\item Routing zagnieżdżony
+		\item Routing guards
+		\item Animacje
+		\item Dzielenie angularowej aplikacji na moduły
+		\item Incremental DOM
+		\item Reaktywne komponenty
+		\item Strategie change detection w szczegółach
+		\item Performance
+		\item AiT i JiT
+		\item End-to-end tests
+		\item Angular Material Design
+		\item Implementacja wzorców architektonicznych w angularze
+		\item MV* (MVC, MVVM, MVP)
+		\item Model-View-Intent
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym kursie uczestnicy będą znali zaawansowane mechanizmy frameworka. Będą wiedzieli jak optymalizować swoje aplikacje, jak pisać czysty, wydajny kod i jak tworzyć przejrzyste architektury angularowych aplikacji.
+
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{React.js}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest nauczenie od podstaw biblioteki React.js oraz praktycznego jej wykorzystania do tworzenia nowoczesnych aplikacji internetowych. Uczestnicy dowiedzą się w jaki sposób dzielić aplikacje na komponenty oraz na czym polegają współczesne architektury do zarządzania stanem aplikacji - takie jak React hooks, Redux czy MobX i czym różnią się od klasycznych podejść  typu Model-View-Controller.
+Po ukończonym szkoleniu uczestnicy będą w stanie samodzielnie pisać aplikacje wykorzystujące bibliotekę React. 
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających język JavaScript, chcących się nauczyć Reacta od podstaw.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Component-based architecture
+		\item Podstawy ES6
+		\item Podstawy funkcyjnego programowania w JS
+		\item VirtualDOM
+		\item JSX
+		\item Komponenty
+		\item Stylowanie komponentów
+		\item React hooks
+		\item Cykl życia komponentu
+		\item Komponenty stanowe i bezstanowe
+		\item Jednokierunkowy przepływ danych
+		\item Renderowanie warunkowe
+		\item Obsługa zdarzeń
+		\item Formularze
+		\item Komunikacja z serwerem
+		\item Routing
+		\item Architektura typu Flux (Redux, mobX)
+		\item Niemutowalne struktury danych
+		\item Server-side rendering
+		\item React saga
+		\item Wstęp do GraphQL
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą znać zasady działania biblioteki React i będą wiedzieć jak użyć tej biblioteki razem z architekturami Fluxowymi takimi jak Redux oraz MobX. oraz z React hooks Zdobędą informacje na temat dobrych praktyk, podejścia funkcyjnego oraz tworzenia przejrzystych struktur aplikacji reactowych.
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Vue.js jako nowoczesne narzędzie do budowania aplikacji webowych}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		W czasie szkolenia uczesnticy zdobędą szereg informacji na temat biblioteki Vue oraz nauczą się w jaki sposób poprawnie zarządzać stanem aplikacji używając takich narzędzi jak Vuex i Rxjs
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	Szkolenie adresowane jest dla osób, które znają podstway języka JavaScript
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Architektura komponentowa
+		\item Iterpolacja zmiennych
+		\item Obsługa formularzy
+		\item comouted props
+		\item watchers
+		\item Vuex i zarządzanie stanem aplikacji
+		\item Cykl życia komponentu
+		\item Kompozycja komponentów
+		\item Jednokierunkowy przepływ danych
+		\item Routing
+		\item Komunikacja z serwerem
+		\item Routing
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	undefined
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{WebWorkers i Progressive Web Apps}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Celem szkolenia jest przekazać wiedzę na temat technologii związanych z progressive web applications. Uczestnicy dowiedzą się w jaki sposób budować skalowalne aplikacje, które z poziomu użytkownika będą wyglądały jak aplikacje natywne
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	Szkolenie adresowane jest dla osób, które znają JS w stopniu średniozaawansowanym
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Mechanika nowoczesnych systemów JavaScriptowych
+		\item WebWorkers w szczegółach
+		\item Service Worker
+		\item Progressive enhancement
+		\item Manifest JSON
+		\item Nieblokujące operacje
+		\item Integracja z systemem operacyjnym
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	undefined
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Node.js: kurs podstawowy (dla programistów front-end)}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest przekazanie wiedzy osobom, które do tej pory pracowały tylko we frontendzie, na temat tego w jaki sposób język programowania z którym mają do czynienia na co dzień (JavaScript) może zostać użyty na serwerze. Uczestnicy poznają środowisko, zrozumieją jego mechanikę oraz nauczą się pisać proste aplikacje po stronie serwera. Dzięki praktycznym ćwiczeniom nauczą się pracy z bazami danych oraz zarządzania kolejkami asynchronicznych funkcji.
+
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów aplikacji frontendowych nie mających doświadczenia w tworzeniu aplikacji backendowych.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item JavaScript po stronie serwera
+		\item Eventy i event-driven-development
+		\item Asynchroniczność
+		\item Routing
+		\item Node API
+		\item Security
+		\item Buffers
+		\item Error Handling
+		\item Express.js
+		\item Połączenie z bazami typu NoSQL
+		\item Połączenie z bazami SQL
+		\item Testowanie
+		\item Node + RxJS
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po skończonym szkoleniu uczestnicy będa znali założenia środowiska Node.js, jego architekturę oraz nauczą się tworzenia prostych programów komunikujących się z bazami danych.
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Object-oriented programming
+w JavaScript}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest przekazanie informacji na temat mechanizmów języka JavaScript pozwalających na tworzenie skalowalnego i wydajnego oprogramowania stosując techniki OOP.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów, którzy znają podstawy języka JavaScript  - posiadają wiedzę na poziomie ukończonego szkolenia JavaScript kurs podstawowy (dla programistów).
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Difference between OOP and Functional Programming
+		\item OOP and FP real word examples
+		\item Exploring the OOP concepts
+		\item Types of JavaScript functions
+		\item Object creation - object literal, Object.create(), constructor function, class
+		\item Factory pattern
+		\item typeof vs instanceof, duck typing
+		\item ‘This’ in JavaScript
+		\item Binding the context
+		\item Prototypal chain
+		\item prototype and Object.setPrototypeOf()
+		\item Function constructors and prototypes
+		\item ES6 classes and prototypes
+		\item Closures and module pattern
+		\item Encapsulation and classes
+		\item Methods, static methods and polymorphism
+		\item Composition over inheritance
+		\item Dependency Injection
+		\item SOILD
+		\item Calling constructor functions (constructor composition pattern)
+		\item The hidden advantage of class methods
+		\item ES6 class mixins (dynamic inheritance)
+		\item new.target and abstract class pattern
+		\item Thinking in an OOP way
+		\item Proxy, Reflect
+		\item property descriptors
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą znać szczegółowo zasady działania mechanizmów pomagających w tworzeniu programów w JavaScript w podejściu obiektowym
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{JavaScript: Programowanie funkcyjne i reaktywne}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Paradygmaty programowania reaktywnego i funkcyjnego są coraz cześciej, używane w językach programowania. Strumienie, czyste" +
+        " funkcje, niemutowalność stanu, składanie funkcji, funkcje wyższego rzędu, monady.... Zrozumienie podejścia" +
+        " funkcyjnego daje programiście dużo większe możliwości, a kod zaimplementowany w ten sposób jest" +
+        " zdecydowanie bardziej ekspresywny, skalowalny i łatwiejszy do testowania." 
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów, którzy znają przynajmniej podstawy języka Java lub JavaScript
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Programowanie funkcyjne i obiektowe
+		\item Programowanie imperatywne i deklaratywne
+		\item Czyste funkcje
+		\item Funktory i monady
+		\item Niemutowalne struktury danych
+		\item callback
+		\item memoization
+		\item higher-order functions
+		\item currying
+		\item partially applied functions
+		\item Transductions
+		\item Reactive programming
+		\item Data streams
+		\item Rx operators
+		\item Creating operators
+		\item Composing streams
+		\item Observables and observers
+		\item Subjects
+		\item Modules
+		\item Model-Viewer-Intent architecture
+		\item Testing
+		\item Practical exercises
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą znać szczegółowo zasady podejścia reaktywnego i funkcyjnego.
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Architektura aplikacji frontendowych}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Celem szkolenia jest nauczenie uczestników w jaki sposób tworzyć skalowalne architektury aplikacji oraz jak wyglądają nowoczesne narzędzia JS umożliwiające tworzenie i utrzymywanie dużych systemów frontendowych.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających język JavaScript.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Podejście obiektowe i funkcyjne
+		\item Paradygmaty programowania: imperatywny, deklaratywny, reaktywny
+		\item Asynchroniczność:
+		\item Events and custom events
+		\item Generatory
+		\item Async/await
+		\item Strumienie
+		\item ES6 Observables
+		\item Communicating sequential processes (CSP)
+		\item Domain Driven Design
+		\item Test-driven development
+		\item Modele architektoniczne:
+		\item Model-view-controller
+		\item Model-view-viewmodel
+		\item Model-view-presenter
+		\item Model-view-intent
+		\item CQRS
+		\item Flux
+		\item Redux
+		\item Static analysis tools
+		\item Architektura informacji
+		\item Podstawy UX
+		\item Accessibility
+		\item Semantic Web
+		\item Debugowanie
+		\item Developer tools
+		\item Optymalizacja
+		\item Critical render path
+		\item Progressive Web App
+		\item Web workers
+		\item Service workers
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą znali zagadnienia związane z architekturą aplikacji. Poznają również szereg narzędzi, które pozwalają na dużo łatwiejsze pisanie programów frontendowych 
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{ES6+}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest przekazanie wiedzy na temat nowych featurów języka JavaScript, które zostały zaimplementowane w standardach EcmaScript nowszych niż EcmaScript 5. Uczestnicy nauczą się podstawowych mechanizmów takich jak zmienne blokowe jak również tych bardziej skomplikowanych takich jak iteratory, generatory czy metaprogrmowanie przy użyciu proxy
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających język JavaScript w wersji EcmaScript 5 chcących poznać możliwości języka, które zostały dodane w standardach EcmaScript 2015 i kolejnych (czyli ES6+ ).
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	8 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Zmienne z zasięgiem blokowym
+		\item Arrow functions
+		\item Nowe funkcje Array i Array.prototype
+		\item Destructuring i deep destructuring
+		\item enhanced object literal
+		\item Object.assign()
+		\item Rest/spread operator
+		\item default parameters
+		\item Map
+		\item Set
+		\item WeakMap
+		\item WeakSet
+		\item Symbols
+		\item Generators
+		\item Iterables
+		\item String templates
+		\item String templates tags
+		\item Classes
+		\item Polymorphism
+		\item EcmaScript Modules
+		\item Proxy
+		\item Reflect
+		\item Asynchroniczne generatory
+		\item Async for of loop
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po zakończonym szkoleniu uczestnicy będą sprawnie posługiwać się nowymi featurami języka JavaScript.
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Testy automatyczne aplikacji webowych dla programistów
+}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest nauczenie uczestników czym jest testowalny kod, jak pisać testy jednostkowe oraz testy end-to-end. Uczestnicy dowiedzą się również czym jest podejście typu Test-Driven Development (TDD),  Behaviour Driven Development (BDD) oraz jakie są wady i zalety podejść tego typu.
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Podstawowa wiedza z zakresu programowania.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Jak pisać testowalny kod
+		\item Różne typy testów - unit tests, integration test, system tests, acceptance tests
+		\item Różnica w podejściach typu TDD oraz BDD
+		\item Zasada Arrange-Act-Assert
+		\item Tworzenie testów w Jasmine
+		\item tworzenie suite’s za pomocą describe i it
+		\item używanie wbudowanych matcher’ów i asymetrychnych matcher’ów
+		\item negacje matcher’ów
+		\item Arrange-Act-Assert w Jasmine
+		\item słowo kluczowe this w suite
+		\item ręczne wywoływanie niepowodzeń
+		\item disabled suites
+		\item pending suites
+		\item function spies
+		\item mockowanie funkcji
+		\item mockowanie czasu i daty
+		\item testowanie asynchronicznego kodu za pomocą callbacków, promisów, async/await
+		\item mockowanie wywołań eventów
+		\item jasmine-ajax i mockowanie odpowiedzi z serwera
+		\item custom matchers
+		\item custom equality
+		\item custom asymmetric equality
+		\item inne narzędzia jasmine (reporters, custom boot)
+		\item pisanie czystego kodu w czasie tworzenia testów
+		\item Selenium
+		\item WebDriverJS
+		\item Testy end-to-end z wykorzystaniem frameworka Protractor:
+		\item Setup środowiska
+		\item Locators
+		\item Page Object
+		\item Debugging
+		\item Skąd czerpać dalszą wiedzę
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą posiadać wiedzę na temat pisania testów jednostkowych oraz testów typu end-to-end. Będą wiedzieć jak pisać testowalny kod co zwiększy jego przejrzystość i jakość. 
+
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Wstęp do programowania z JavaScript}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Celem szkolenia jest nauczenie uczestników podstaw programowania w języku JavaScript. Jest to kurs dla osób, które dopiero chcą zacząć swoją przygodę z programowaniem. Uczestnicy poznają podstawy programowania takie jak instrukcje warunkowe, zmienne czy pętle, zrozumieją na czym polegają różne podejścia programistyczne i dostaną szereg narzędzi pozwalających na późniejszy samodzielny rozwój.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	Szkolenie adresowane jest dla osób, które nie potrafią jeszcze programować w żadnym języku.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Czym jest program komputerowy
+		\item Podział front-end i back-end
+		\item Podstawy HTML
+		\item Podstawy CSS
+		\item Czym są poziomy abstrakcji w programowaniu
+		\item Zmienne i typy zmiennych
+		\item Czym są obiekty i jak ich używać
+		\item Jak używać JavaScript do interakcji ze stroną internetową
+		\item Komunikacja z serwerem
+		\item Skąd czerpać wiedzę i jak się dalej  rozwijać
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	undefined
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Wykorzystywanie kodu Java, Rust, C++ w przeglądarce - wprowadzenie do WebAssembly}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		W czasie szkolenia uczesnticy zdobędą szereg informacji na temat języka webassembly. Webassembly pozwala na użycie kodu źródłowego napisanego w innych językach programowania niż JavaScript, w aplikacjach front-endowych, co daje olbrzymie możliwości
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	Szkolenie adresowane jest dla osób, które znają podstway języka JavaScript oraz dowolngo innego języka programowania
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Czym jest WebAssembly
+		\item WebAssembly API
+		\item Wydajność
+		\item Wywoływanie funkcji cpp z poziomu JS
+		\item Eksportowanie funkcji cpp
+		\item Wywoływanie funkcji cpp w JS
+		\item Integracja z Rust
+		\item Integracja kodu Java z JWebAssembly
+		\item Emscripten
+		\item Security
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	undefined
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{JavaScript dla programistów Java}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Cytująć klasyka - 'Java is to JavaScript as Car is to Carpet'. 
+    Jest to szkolenie profilowane, dla osób ze świata Javy, które chciałby się dowiedzieć w jaki sposób działa JavaScript i jak w nim wygodnie pisać.
+    W czasie tego szkolenia uczestnicy dostaną solidną dawkę wiedzy na temat mechaniki JavaScriptu, dzięki czemu język ten przestanie być (aż tak) upierdliwy.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających język Java.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	3 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Porównanie podejścia OOP i podejść wykorzystywancyh w JS
+		\item Porównanie narzędzi Javowych i JavaScriptowych
+		\item Jak nie popełniać typowych błędów ludzi ze świata OOP
+		\item W jaki sposób wykorzystywać elastyczność języka JavaScript
+		\item Wstęp do TypeScript
+		\item Mechanika JS w szczegółach
+		\item Kilka słów nt. node
+		\item Kilka słów nt. JSowych biliotek i frameworków (Angular, Vue, React)
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą się czuć znacznie pewniej w kodzie JavaScript, będą znali jego mechanike i będą wiedzieć w jaki sposób unikać typowych błędów
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Progresywne przepisywanie aplikacji, zmniejszanie długu technologicznego i zasady clean code}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Celem szkolenia jest nauczenie uczestników w jaki sposób zabrać się do migracji legacy aplikacji.
+     Szkolenie dotyczyć będzie również zasady czystego kodu, które pozwolą tworzyć aplikacje o znacznie wyższej jakości. 
+     W czasie zajęć poruszane będą również tematy dotyczące długu technologicznego oraz techniki na jego minimalizację.
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Od uczestników szkolenia wymagana jest umiejętność programowania w dowolnym języku.
+
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Czym jest legacy code
+		\item W jaki sposób wyekstrahować zależności, które są legacy
+		\item Po czym poznać, że aplikacja musi zostać przepisana
+		\item Na czym polega skalowalność aplikacji
+		\item W jaki sposób zabrać się za przepisywanie aplikacji
+		\item Zabezpieczenia przed regresjami
+		\item Zasady clean code
+		\item Język dziedzinowy
+		\item Metaprogramowanie
+		\item Wzorce architektoniczne
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Uczestnicy po ukończonym szkoleniu będą znać zasady pomagające w łatwiejszym migrowaniu aplikacji.
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{GraphQL}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest przekazanie wiedzy dotyczącej języka zapytań GraphQL będącego alternatywą dla protokołu REST. Uczestnicy po szkoleniu będą w stanie użyć tej technologii w swoich projektach. Szkolenie będzie dotyczyło implementacji GraphQL w języku JavaScript, niemniej jednak sama technologia może być również użyta z innymi językami takimi jak Java, Go i wieloma innymi.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów znających dowolny język programowania.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	8 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item GraphQL a REST
+		\item Queries
+		\item Mutacje
+		\item Schemes
+		\item Typy
+		\item Walidacja
+		\item Ekosystem
+		\item Apollo Client i Relay
+		\item Security
+		\item Use cases
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą posiadać wiedzę na temat tego w jaki sposób wykorzystać język zapytań GraphQL w aplikacjach webowych. Jak tworzyć odpowiednie zapytania, w jaki sposób dbać o bezpieczeństwo i jakich narzędzi używać przy implementowaniu aplikacji opierających się o GraphQL’a.
+
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{REST - od nowicjusza do geniusza}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		W czasie szkolenia uczestnicy dowiedzą się na jakich zasadach dziala architektura REST, jakie są jej założenia i w jaki sposób tworzyć poprawne API oparte o tę architekturę.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Od uczestników szkolenia wymagana jest umiejętność programowania w dowolnym języku.
+
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	1 dzien
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Przegląd wzorców architektonicznych
+		\item Protokół HTTP
+		\item Stanowość i bezstanowość
+		\item Komunikacja klient-serwer
+		\item Autoryzacja
+		\item Implementacje REST w różnych językach programowania
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Uczestnicy po ukończonym szkoleniu będą znać zasady architektury REST.
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{regExp - wyrażenia regularne, zostań mistrzem!}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Celem szkolenia jest nauczenie uczestników w jaki sposób osiągnąć mistrzostwo w tworzeniu wyrażeń regularnych. Szkolenie jest pełne ćwiczeń dzięki czemu każdy uczestnik będzie w stanie przećwiczyć nabytą wiedzę
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Szkolenie adresowane jest do programistów w dowolnych językach programownia.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	1 dzien
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Składnia wyrażeń regularnych
+		\item Kotwice
+		\item metaznaki
+		\item klasy znaków
+		\item kwantyfikatory
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Po ukończonym szkoleniu uczestnicy będą potrafili tworzyć zaawansowane wyrażenia regularne
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Business Intelligence, wizualizacja big data w aplikacjach internetowych}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Tworzenie wizualizacji danych jest skomplikowanym zadaniem, które wymaga nie tylko umiejętności przetworzenia początkowych zbiorów danych, do kształtu, który pragniemy zaprezentować, ale również wykorzystanie odpowiednich narzędzi do wizualizacji danych.
+Strony WWW oraz aplikacje internetowe, są to doskonałe miejsca prezentacji danych a język do tworzenia aplikacji - JavaScript jest bogaty w narzędzia nie tylko do Business Intelligence ale i do Machine Learning i innych dziedzin data science.
+Celem szkolenia jest przekazanie wiedzy na temat wizualizacji danych za pomocą takich bibliotek jak d3.js, która daje największe możliwości jeśli chodzi o prezentowanie zależności między danymi. W czasie szkolenia poruszone zostaną również tematy związane z Machine Learning w ciągle niedocenianym języku jakim jest JavaScript.
+
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Od uczestników szkolenia wymagana jest umiejętność programowania w dowolnym języku.
+
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Czym jest Business Intelligence
+		\item Kryteria oceny wizualizacji
+		\item Rodzaje wizualizacji danych
+		\item BI a client-side
+		\item d3.js w szczegółach
+		\item Operacje na danych
+		\item Interaktywne notatniki
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Uczestnicy po ukończonym szkoleniu będą znać techniki wizualizacji danych w przeglądarce i będą wiedzieć jak się dalej rozwijać w tym kierunku.
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Sieci neuronowe i uczenie maszynowe z tensorflow.js i brain.js}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Sieci neuronowe i uczenie maszynowe są to tematy, które w ostatnich latach zdobyły olbrzymią popularność. W czasie szkolenia uczestnicy dowiedzą się w jaki sposób używać dostępnych bibliotek napisanych w JavaScript, aby w prosty sposób przeprowadzać skomplikowane operacje.
+
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Od uczestników szkolenia wymagana jest umiejętność programowania w dowolnym języku.
+
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Na czym polegają algorytmy uczenia maszynowego
+		\item Filozofia sieci neuronowych
+		\item Tensorflow
+		\item Trenowanie sieci - dobór odpowiednich danych
+		\item Modele danych
+		\item Trenowanie asynchroniczne
+		\item Strumienie
+		\item Transfer learning
+		\item Rozpoznawanie tekstu
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Uczestnicy po ukończonym szkoleniu będą znać techniki wizualizacji danych w przeglądarce i będą wiedzieć jak się dalej rozwijać w tym kierunku.
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Prezentowanie treści technicznych}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		Celem szkolenia jest przekazanie praktycznej wiedzy dotyczącej wystąpień publicznych oraz sposobów przekazywania treści technicznych w zrozumiały i ciekawy sposób. Szkolenie skupia się na poprawieniu umijętności: autoprezentacji, przekazywania wiedzy i podniesienia kompetencji oratorskich.
+
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	Szkolenie adresowane jest do osób, które pragną podnieść jakość swoich wystąpień publicznych, z naciskiem na wystąpienia publiczne związane z tematami technicznymi
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	1 dzien
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Metody walki ze stresem
+		\item Mowa ciała
+		\item Budowanie wizerunku
+		\item Prowadzenie dialogu z uczestnikami
+		\item Praca z głosem - dykcja, intonacja, barwa głosu
+		\item Metody eliminacji parajęzyka (yyy)
+		\item Praca z flipchartem/whiteboardem/tablicą
+		\item Dobieranie treści pod uczestników
+		\item Storytelling
+		\item Przygotowanie materiałów dydaktycznych
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Ukończenie szkolenia pomoże uczestnikom nabrać pewności siebie w czasie wystąpień publicznych oraz dostarczy im szereg technik podnoszących jakość wystąpienia.
+
+
+\end{adjustwidth}
+
+\newpage
+
+
+    
+	\section{Komunikacja z developmentem (dla biznesu)}
+
+	\subsection*{Opis szkolenia:}
+	\begin{adjustwidth}{2cm}{}
+\justifying
+		
+Największym problemem w czasie wytwarzania oprogramowania jest komunikacja. Przez nieodpowiedni sposób porozumiewania się, proces twórczy wydłuża się w nieskończoność. I zarówno część biznesowa jak i deweloperska projektu jest bardzo niezadowolona z warunków pracy.
+W czasie szkolenia uczestnicy dowiedzą się w jaki sposób komunikować się z deweloperami, jak uzyskać od nich informacje, które są istotne w kontekście biznesu. 
+Uczestnicy będą mieli szansę zrozumieć czemu tak często potrzeby programistów są zupełnie inne niż założone przez management, co wpływa na to, że zaczynają mniej wydajnie pracować czy nawet odchodzą z firmy. W czasie szkolenia przekazana zostanie również wiedza na temat programowania jako konceptu dzięki czemu komunikacja z programistami będzie dużo łatwiejsza.
+	\end{adjustwidth}
+	\subsection*{Profil uczestników:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	Szkolenie będzie prowadzone od absolutnych podstaw. Języki programowania będą tłumaczone w analogii do języków naturalnych. Umiejętność programowania nie jest wymagana.
+\end{adjustwidth}
+	\subsection*{Czas trwania:}
+\begin{adjustwidth}{2cm}{}
+	2 dni
+\end{adjustwidth}
+
+	\subsection*{Wiedza teoretyczna i praktyczna:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item Jak poznać potrzeby programisty
+		\item Skąd się biorą problemy przy wyborze technologii do realizacji projektów
+		\item Skąd się biorą problemy komunikacyjne z deweloperami
+		\item W jaki sposób formułować treści aby dobrze komunikować zespół
+		\item Czemu programista czuje wypalenie zawodowe
+		\item Czym jest programowanie
+		\item Czym jest program
+		\item Czym jest język programowania
+		\item Czym są biblioteki i frameworki
+		\item Na czym polegają różnice między językami programowania
+		\item Podział na frontend i backend
+		\item Czym jest kaczuszka programisty
+		\item Po czym poznać dobrego programistę
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{Umiejętności:}
+\begin{adjustwidth}{2cm}{}
+\justifying
+	
+Uczestnicy po ukończonym szkoleniu będą lepiej rozumieć potrzeby programistów, będą wiedzieli w jaki sposób lepiej się z nimi komunikować a także poznają slang, którym się posługują. 
+\end{adjustwidth}
+
+\newpage
+
+
+\end{document}

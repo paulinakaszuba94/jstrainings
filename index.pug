@@ -1,0 +1,174 @@
+doctype html
+head
+    link(rel='shortcut icon' type='image/png' href='img/jsicon.png')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='description' content='\
+  Szkolenia z JavaScript, Angular, Reactjs, graphQl, rxjs\
+  ')
+    meta(name='author' content='jstrainings')
+    meta(name='keywords' content='javascript java szkolenia trening szkolenie treningi trainings jstrainings script rxjs angular angularjs react reactjs angular2 graphql')
+    title Szkolenia JavaScript
+    // Bootstrap Core CSS
+    link(href='vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet')
+    // Custom Fonts
+    link(href='vendor/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Raleway:100,400,500,800,900' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet')
+    // Plugin CSS
+    link(href='vendor/magnific-popup/magnific-popup.css' rel='stylesheet')
+    // Theme CSS
+    link(href='css/creative.css' rel='stylesheet')
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+        
+nav#mainNav.navbar.navbar-default.navbar-fixed-top
+    .container-fluid
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+            button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1')
+                span.sr-only #{general.changeNavigation}
+                |  Menu
+                i.fa.fa-bars
+            a.navbar-brand.page-scroll(href='#page-top') JSTrainings
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+                each obj, index in nav
+                    li
+                        a.page-scroll(href='#' + obj.href) #{obj.name}
+        // /.navbar-collapse
+    // /.container-fluid
+header#page-top
+    .header-content
+        .header-content-inner
+            h1#homeHeading #{general.javaScriptTrainings}
+            hr
+            p
+            a.btn.btn-primary.btn-xl.page-scroll(href='#' + nav.trainings.href) #{general.knowMore}
+
+section#logo.overflow-hidden
+    .container
+        .row
+            h3 #{general.conducted}:
+    img(src="img/logos.png", style={'max-width': '100%'})
+section#references.bg-primary.medium-padding
+    .container
+        .row
+            .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading #{general.references}
+                hr.light
+                #carousel-example-generic.carousel.slide(data-ride='carousel')
+                    // Wrapper for slides
+                    ol.carousel-indicators.basic(style={
+                        display: 'flex',
+                        'align-items': 'center',
+                        padding: 0,
+                        'justify-content': 'center'
+                    })
+                        li.active(data-target='#carousel-example-generic' data-slide-to='0')
+                        li(data-target='#carousel-example-generic' data-slide-to='1')
+                        li(data-target='#carousel-example-generic' data-slide-to='2')
+                        li(data-target='#carousel-example-generic' data-slide-to='3')
+                    .carousel-inner.carousel-text(role='listbox')
+                        each reference, index in references
+                            - const active = index === 0 ? 'active' : '';
+                            .item(class=active)
+                                .carousel-caption #{reference.description}
+                                .carousel-author  - #{reference.author}
+                // <a href="#trainings" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+
+section#trainings.overflow-hidden.no-padding-bottom
+    .container
+        .row
+            .col-lg-12.text-center
+                h2.section-heading #{general.trainings}
+                hr.primary
+    .container
+        each training, index in trainings.slice(0, Math.ceil(trainings.length/2))
+            include training-row
+section.bg-primary.small-padding
+    .container.display-flex.align-center
+        .flex-1
+            h3 #{general.allTrainings}
+            |
+            p #{general.forIndividuals}
+        |
+        .display-flex.right.flex-1.align-right
+            a.navbar-brand.page-scroll.btn.btn-primary.btn-lg.btn-custom(href='./trainings') Zobacz pełną listę szkoleń
+
+section.overflow-hidden.no-padding-bottom.no-padding-top
+    .container
+        .row
+            each training, index in trainings.slice(Math.ceil(trainings.length/2))
+                include training-row
+section#portfolio.no-padding.bg-primary
+    section
+        .container
+            .row
+                .col-lg-12
+                    .col-lg-12.text-center
+                        h2.section-heading #{general.trainingProcess}
+                        hr.light
+                        p
+                .col-lg-4.col-xs-4.text-center.auto-width-on-small
+                    h3 #{howItWorks.theory.name}
+                    p.list-group-item-heading #{howItWorks.theory.description}
+                .col-lg-4.col-xs-4.text-center.auto-width-on-small
+                    h3 #{howItWorks.examples.name}
+                    p.list-group-item-heading #{howItWorks.examples.description}
+                .col-lg-4.col-xs-4.text-center.auto-width-on-small
+                    h3 #{howItWorks.exercises.name}
+                    p.list-group-item-heading #{howItWorks.exercises.description}
+    .container-fluid
+        .row.no-gutter.popup-gallery
+            each photo, index in photos
+                .col-lg-4.col-sm-6
+                    a.portfolio-box(href=photo.hrefBig)
+                        img.img-responsive(src=photo.hrefSmall alt=photo.alt)
+                        .portfolio-box-caption
+                            .portfolio-box-caption-content
+                                .project-category.text-faded #{photo.description}
+                                .project-name #{photo.place}
+section#contact
+    .container
+        .row
+            .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading #{general.contactWithMe}
+                |
+                hr.primary
+                |
+                p
+            |
+            .col-lg-4.col-lg-offset-2.text-center
+                i.fa.fa-linkedin-square.fa-3x.sr-contact(aria-hidden='true')
+                |
+                a(href='https://pl.linkedin.com/in/grzegorz-marzencki-912a5757')
+                    p #{general.myLinkedIn}
+            |
+            .col-lg-4.text-center
+                i.fa.fa-envelope-o.fa-3x.sr-contact
+                |
+                p
+                    a(href='mailto:contact@jstrainings.com') contact@jstrainings.com
+            .col-lg-8.col-lg-offset-2.text-center
+                div(style={'font-size': '22px',
+                    'font-family': 'Roboto',
+                    'font-weight': 300}) #{general.costs}
+
+
+script(src='vendor/jquery/jquery.min.js')
+// Bootstrap Core JavaScript
+script(src='vendor/bootstrap/js/bootstrap.min.js')
+// Plugin JavaScript
+script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
+|
+script(src='vendor/scrollreveal/scrollreveal.min.js')
+|
+script(src='vendor/magnific-popup/jquery.magnific-popup.min.js')
+// Theme JavaScript
+script(src='scripts/creative.min.js')

@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>JS Trainings</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,500,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" style="text-align: justify">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Zmień nawigację</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">JSTrainings</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">Referencje</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#trainings">Szkolenia</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Proces</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Szkolenia JavaScript</h1>
+                <hr>
+                <p></p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Dowiedz się więcej</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary medium-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Referencje</h2>
+                    <hr class="light">
+                    
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner carousel-text" role="listbox">
+                        <div class="item active">
+                            <div class="carousel-caption">
+                               <!-- <h3>Modern frontend architecture with <a class="page-scroll" href="#angular2"><sub>Angular2</sub></a></h3> -->
+                                Grzegorz always receives excellent ratings from participants that appreciate his commitment,
+                                broad knowledge and solid teaching skills. We highly recommend Grzegorz and we wish we had more trainers like him!
+                               <div class="carousel-author"> - Weronika Kozłowska, Software Development Academy </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <!-- <h3>Reactive programming with <a class="page-scroll" href="#rx"><sub>RxJS</sub></a></h3>-->
+                                Grzegorz led workshops and meetups and I can definitely recommend him as a professionals trainer and speaker.
+                                Grzegorz has a great knowledge and what is important he can share his knowledge and experience with attendees.
+                                <div class="carousel-author"> - Anna Szwiec, Women in Technology</div>
+                            </div>
+                        </div>
+                        <div class="item active">
+                            <div class="carousel-caption">
+                                <!-- <h3>Scalable code with <a class="page-scroll" href="#typescript"><sub>TypeScript</sub></a></h3>-->
+                                Grzegorz’s biggest strength lies in his ability to share his knowledge.
+                                He was a speaker at many meetups and conferences like e.g. meet.js.
+                                I was always impressed with his intelligence, knowledge and passion.
+                                <div class="carousel-author">  - Anna Zgrzebnicka, Codete</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <!-- <h3>Automate your work with <a class="page-scroll" href="#webpack"><sub>Webpack</sub></a></h3>-->
+                                I can definitely admit that Grzegorz is an outstanding speaker.
+                                Starting with the great knowledge of field and ways of presenting it, ending with an awesome talent to entertain people during his talks.
+                                He can not only teach people about new, interesting topics, but also makes them highly entertained.
+                                <div class="carousel-author"> - Andrzej Fricze, meet.js</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    
+                    <!--<a href="#trainings" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trainings" class="overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Szkolenia</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div  id="typescript" class="col-lg-12 display-flex align-center sr-icons relative">
+                    <div class="flex-1 text-center">
+                        <img src="img/portfolio/thumbnails/js.png">
+                    </div>
+                    <div class="flex-1">
+                        <h3>JavaScript i TypeScript</h3>
+                        <p class="text-muted">
+                            JavaScript to język programowania, który w ostatnich latach rozwinął się bardzo gwałtownie.
+                            Zrozumienie mechaniki języka, różnych paradygmatów programowania,
+                            które można razem z nim zastosować oraz jego najnowocześniejszych feature’ów pozwala na stworzenie kodu o najwyższej jakości.
+
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg btn-custom " data-toggle="modal" data-target="#js">
+                        Poznaj szczegóły
+                        </button>       
+                    </div>
+                </div>
+
+                <div class="col-lg-12 double-line"></div>
+
+                <div id="angular2" class="col-lg-12 display-flex-reverse align-center sr-icons-1 relative">
+                    <div class="flex-1">
+                        <h3>Angular</h3>
+                        <p class="text-muted">
+                            Angular to nowoczesny framework pozwalający na tworzenie skalowalnych aplikacji fronetendowych. Razem z RxJS oraz TypeScriptem tworzy bardzo potężny i złożony zestaw narzędzi. Dokładne zrozumienie mechaniki Angulara pozwala wykorzystać w 100% jego możliwości, tak aby tworzyć wydajne aplikacje o przejrzystej strukturze i proste w dalszym rozwoju.
+
+
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#angular">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <img class="max-height" src="img/portfolio/thumbnails/angular.png">
+                    </div>
+                </div>
+
+                <div class="col-lg-12 double-line"></div>
+
+                <div id="reactredux" class="col-lg-12 display-flex-reverse align-center sr-icons-2 relative column-on-small">
+                    <div class="flex-1 text-center">
+                        <img class="max-height icon-small-on-small" src="img/portfolio/thumbnails/react.png">
+                    </div>
+                    <div class="flex-1">
+                        <h3>React + Redux</h3>
+                        <p class="text-muted">
+                            React to nowoczesna biblioteka pozwalająca na tworzenie architektury opartej o komponenty i wykorzystująca wirtualizację DOM.
+                            W połączeniu z, obecnie najpopularniejszym, narzędziem do zarządzania stanem - Reduxem, tworzy środowisko z przejrzystymi, odseparowanymi warstwami logiki.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#react">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 double-line"></div>
+
+                <div id="rx" class="col-lg-12 display-flex column-reverse-on-small sr-icons align-center sr-icons-3 relative">
+                    <div class="flex-1">
+                        <h3>RxJS</h3>
+                        <p class="text-muted">
+                            Programowanie reaktywne to paradygmat, dzięki któremu dużo łatwiej operować asynchronicznymi zdarzeniami.
+                            RxJS dostarcza fantastycznych narzędzi pozwalających na wygodne tworzenie reaktywnego oprogramowania, które sprawi, że architektura aplikacji stanie się dużo bardziej przejrzysta.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#rxjs">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <img class="max-height" src="img/portfolio/thumbnails/rxjs.svg">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary small-padding">
+        <div class="container display-flex align-center">
+            <div class="flex-1">
+                <h3>Wszystkie szkolenia mogą być dostosowane</h3>
+                <p>w zależności od potrzeb</p>
+            </div>
+            <div class=" display-flex right flex-1 align-right">
+                <a class="navbar-brand page-scroll btn btn-primary btn-lg btn-custom" href="#contact">Skontaktujmy się!</a>
+            </div>
+        </div>
+    </section>
+    <section class="overflow-hidden">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-12 display-flex-reverse column-on-small align-center sr-icons-4 relative">
+                    <div class="flex-1 text-center">
+                        <img class="min-height" src="img/portfolio/thumbnails/electron.png">
+                    </div>
+                    <div class="flex-1">
+                        <h3>Electron i NativeScript</h3>
+                        <p class="text-muted">
+                            JavaScript to język, który obecnie nie ogranicza się już tylko do przeglądarek internetowych.
+                            Używając takich narzędzi jak Elektron czy NativeScript możemy tworzyć programy, które są całkowicie end-to-end i będą mogły
+                            również działać jako natywne aplikacje desktopowe i mobilne.
+
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#native">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 double-line"></div>
+
+                <div class="col-lg-12 display-flex-reverse align-center sr-icons-5 relative">
+                    <div class="flex-1">
+                        <h3>GraphQL</h3>
+                        <p class="text-muted">
+                            GraphQL to nowoczesny protokół komunikacji klient-serwer, który ma zdecydowanie mniejsze ograniczenia niż REST.
+                            GraphQL ma wiele różnych implementacji i może być użyty razem z dowolnym frameworkiem jak również z czystym JSem.
+
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#graphql">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <img class="min-height" src="img/portfolio/thumbnails/graphql.png">
+                    </div>
+                </div>
+
+                <div class="col-lg-12 double-line"></div>
+
+                <div id="webpack" class="col-lg-12 display-flex align-center sr-icons-6 relative">
+                    <div class="flex-1 text-center">
+                        <img class="min-height icon-small-on-small" src="img/portfolio/thumbnails/authorization.png">
+                    </div>
+                    <div class="flex-1">
+                        <h3>Automatyzacja</h3>
+                        <p class="text-danger">Grunt, Gulp, Webpack</p>
+                        <p class="text-muted">
+                            Zarządzanie zależnościami przy tworzeniu współczesnych, złożonych aplikacji potrafi być bardzo uciążliwe.
+                            W obecnym świecie dostajemy szereg narzędzi, które pozwalają na wiele ułatwień przy dewelopowaniu JavaScriptowych programów.
+
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#taskRunners">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                    <div class="col-lg-12 double-line absolute"></div>
+                </div>
+
+
+                <div class="col-lg-12 display-flex-reverse align-center sr-icons-7 relative">
+                    <div class="flex-1">
+                        <h3>Node.js + Express</h3>
+                        <p class="text-muted">
+                            Node.js daje możliwość budowania systemów end-to-end JavaScript.
+                            Dzięki takiemu podejściu, posiadając ten sam język zarówno w części frontendowej jak i backendowej,
+                            kod jest łatwiejszy w utrzymaniu i daje większe możliwości związane z reużywalnością.
+                            Node.js jako platforma pozwala również na bardzo szybkie, jednowątkowe operacje. Natomiast
+                            narzędzia typu Express pozwalają na szybkie i łatwe tworzenie podstawowych mechanizmów, takich jak wystawienie RESTowego API.
+                        </p>
+                            <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#node">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <img class="min-height" src="img/portfolio/thumbnails/node.png">
+                    </div>
+                    <div class="col-lg-12 double-line absolute"></div>
+                </div>
+
+                <div class="col-lg-12 display-flex align-center sr-icons-8 relative">
+                    <div class="flex-1 text-center">
+                        <img class="min-height icon-small-on-small" src="img/portfolio/thumbnails/preprocessors.png">
+                    </div>
+                    <div class="flex-1">
+                        <h3>Preprocessory</h3>
+                        <p class="text-danger">LESS, Sass, SCSS and Pug (former Jade)</p>
+                        <p class="text-muted">
+                            Tworzenie skalowalnych struktur HTML i CSS potrafi być bardzo trudne, dlatego też stworzono szereg narzędzi, które mają w tym pomóc.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg btn-custom" data-toggle="modal" data-target="#preprocessors">
+                            Poznaj szczegóły
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding bg-primary" id="portfolio">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">Proces szkoleniowy</h2>
+                            <hr class="light">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 text-center auto-width-on-small">
+                        <h3>Teoria</h3>
+                        <p class="list-group-item-heading">
+                            Dogłębna analiza mechaniki omawianych technologii pozwala na zrozumienie w jaki sposób wykorzystać je zgodnie z ich przeznaczeniem i filozofią tak, aby unikać antywzorców.
+                    </div>
+                    <div class="col-lg-4 col-xs-4 text-center auto-width-on-small">
+                        <h3>Przykłady z życia wzięte</h3>
+                        <p class="list-group-item-heading">
+                            Szkolenia skupiają się wokół czysto praktycznej wiedzy. Technologie są omawiane na realnych przykładach i problemach, z którymi każdy programista może się spotkać w czasie pracy zawodowej.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-xs-4 text-center auto-width-on-small">
+                        <h3>Ćwiczenia praktyczne</h3>
+                        <p class="list-group-item-heading">
+                            Szkolenia obfitują w całą gamę praktycznych ćwiczeń, dzięki czemu każdy uczestnik szkolenia będzie w stanie z łatwością korzystać z technologii i implementować poznane rozwiązania po ukończeniu szkolenia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Akademia Górniczo-Hutnicza
+                                </div>
+                                <div class="project-name">
+                                    Kraków
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Ericsson
+                                </div>
+                                <div class="project-name">
+                                    Mexico City
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/wit.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/wit.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Otwarte szkolenie: Typing game in RxJS
+                                </div>
+                                <div class="project-name">
+                                    Kraków
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Ericsson
+                                </div>
+                                <div class="project-name">
+                                    Noida
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/meetjs.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/meetjs.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    MeetJS
+                                </div>
+                                <div class="project-name">
+                                    Kraków
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/pst.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/pst.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Training for trainers
+                                </div>
+                                <div class="project-name">
+                                    Jarocin
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            </div>
+        </div>
+    </aside>-->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Skontaktujmy się!</h2>
+                    <hr class="primary">
+                    <p></p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    
+                        <i class="fa fa-linkedin-square fa-3x sr-contact" aria-hidden="true"></i>
+                      <a href="https://pl.linkedin.com/in/grzegorz-marzencki-912a5757">
+                        <p>mój linkedin</p>
+                     </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="contact@jstrainings.com">contact@jstrainings.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal js-->
+    <div class="modal fade bs-example-modal-lg" id="js" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">JavaScript i TypeScript</h4>
+            </div>
+            <div class="modal-body">
+
+
+               <blockquote>
+                   Szkolenia dotyczące mechaniki JavaScript, podejścia zorientowanego obiektowo oraz funkcyjnego i najnowocześniejszych featur'ów języka.
+               </blockquote>
+               <!--
+               <p class="text-muted">Trainings goals - teach how to work with JavaScript, ES6 and TypeScript </p>
+               <p class="text-muted">Jak wyglada, czemu praktyka jest wazna, czemu teoria jest wazna?</p>
+       -->
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Niskopoziomowe mechanizmy języka JavaScript
+                        </a>
+                    </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <ul>
+                            <li>V8 optimisations and memory allocations</li>
+                            <li>Prototypical inheritance - prototype, __proto__, [[Prototype]]</li>
+                            <li>Object methods like Object.create(), Object.freeze(), Object.assing() and more</li>
+                            <li>Defining Object properties</li>
+                            <li>Array methods</li>
+                            <li>Changing context of 'this'</li>
+                            <li>Getters and setters</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ES6+
+                        </a>
+                    </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        <ul>
+                            <li>ES6 specs</li>
+                            <li>Polyfiling ES6 features (Babel)</li>
+                            <li>Block-scoped declarations: const and let</li>
+                            <li>Arrow function</li>
+                            <li>Default Parameters</li>
+                            <li>String templates
+                            <li>Classes</li>
+                            <li>Destructuring</li>
+                            <li>Spread operator</li>
+                            <li>Array and object matching</li>
+                            <li>Generators</li>
+                            <li>Iterator</li>
+                            <li>Map and Sets</li>
+                            <li>WeakMaps and WeakSets</li>
+                            <li>Symbols</li>
+                            <li>Promise</li>
+                            <li>Proxies</li>
+                            <li>new.target</li>
+                            <li>Modules</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        TypeScript
+                        </a>
+                    </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        <ul>
+                            <li>What are strong types and why they are useful</li>
+                            <li>Setting up TypeScript</li>
+                            <li>Public, private, protected</li>
+                            <li>Application modularization</li>
+                            <li>Decorators and how are they implemented</li>
+                            <li>Static fields</li>
+                            <li>ES6+ features</li>
+                            <li>ES6 and TypeScript polyfills inconsistencies</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingfour">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Functional JavaScript
+                        </a>
+                    </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                    <div class="panel-body">
+                        <ul>
+                            <li>Functional vs Object-oriented</li>
+                            <li>Thinking in functional way</li>
+                            <li>Immutability</li>
+                            <li>Pure functions</li>
+                            <li>Function partial applications</li>
+                            <li>Currying </li>
+                            <li>Composing functions</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Object-oriented JavaScript
+                        </a>
+                    </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">
+                    <ul>
+                            <li>JavaScript constructors</li>
+                            <li>ES6 classes</li>
+                            <li>Inheritance</li>
+                            <li>Polymorphism</li>
+                            <li>Encapsulation</li>
+                            <li>JavaScript design patterns</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Clean Code
+                        </a>
+                    </h4>
+                    </div>
+                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                    <div class="panel-body">
+                        <ul>
+                            <li>Conventions to follow</li>
+                            <li>Code smells</li>
+                            <li>Linting</li>
+                            <li>Strict mode</li>
+                            <li>Avoiding common bugs</li>
+                            <li>Tracking bugs</li>
+                            <li>Pure functions</li>
+                            <li>JavaScript design patterns</li>
+                            <li>Javascript architectural patterns (MVC, MVI, MV*, Flux)</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Angular2-->
+    <div class="modal fade bs-example-modal-lg" id="angular" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Angular training</h4>
+            </div>
+            <div class="modal-body">
+
+            <blockquote>
+                Szkolenie obejmuje tematy związane z projektowaniem i implementowaniem skalowalnych i przejrzystych Angularowych aplikacji.
+                Angular jest frameworkiem pozwalającym na implementację szeregu różnych architektur,
+                jak również wykorzystuje dodatkowe narzędzia takie jak TypeScript oraz RxJS.
+                W związku z tym konieczne jest poznanie zarówno czysto Angularowej sematyki, jak i technologii, które są razem z Angularem wykorzystywane.
+
+            </blockquote>
+            <div class="panel panel-default">
+            <div class="panel-heading">Tematy omawiane na szkoleniu:</div>
+            <div class="panel-body">
+                <ul>
+                    <li>One way data binding vs two way data binding</li>
+                    <li>Application architecture focused on components</li>
+                    <li>Web components</li>
+                    <li>TypeScript</li>
+                    <li>Directives</li>
+                    <li>Pipes</li>
+                    <li>Dependency Injection</li>
+                    <li>Zones</li>
+                    <li>Decorators</li>
+                    <li>Incremental DOM</li>
+                    <li>Shadow DOM</li>
+                    <li>Flux-alike architecture vs MV*</li>
+                    <li>Event Emitters</li>
+                    <li>Components communication</li>
+                    <li>Reactive Programming with Angular</li>
+                    <li>Styleguides</li>
+                    <li>Debugging</li>
+                    <li>Advanced design patterns</li>
+                    <li>Migration from AngularJS 1.x</li>
+                    <li>Testing</li>
+                    <li>Practical exercises</li>
+                </ul>
+            </div>
+            </div>
+
+               
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal node-->
+    <div class="modal fade bs-example-modal-lg" id="rxjs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Szkolenie RxJS</h4>
+                </div>
+                <div class="modal-body">
+                    <blockquote>
+                    </blockquote>
+
+                    <div class="panel panel-default">
+                    <div class="panel-heading">Tematy:</div>
+                        <div class="panel-body">
+                            <ul>
+                                <li>Reactive programming</li>
+                                <li>Data streams</li>
+                                <li>Rx operators</li>
+                                <li>Creating additional operators</li>
+                                <li>Composing streams</li>
+                                <li>Observables and observers</li>
+                                <li>Subjects</li>
+                                <li>Modules</li>
+                                <li>Model-Viewer-Intent architecture</li>
+                                <li>Testing</li>
+                                <li>Practical exercises</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Angular2-->
+    <div class="modal fade" id="native" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Szkolenie Electron i NativeScript</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel panel-default">
+                    <div class="panel-heading">Electron</div>
+                        <div class="panel-body">
+                            <li>Environment configuration</li>
+                            <li>Main and render processes</li>
+                            <li>Electron API</li>
+                            <li>Using external npm packages</li>
+                            <li>Builds for different OS (Windows, Linux, Mac)</li>
+                            <li>Practical exercises</li>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                    <div class="panel-heading">NativeScript</div>
+                        <div class="panel-body">
+                            <li>Environment configuration</li>
+                            <li>Difference between NativeScript mechanisms and WebView</li>
+                            <li>NativeScript with Angular2 and TypeScript</li>
+                            <li>Practical exercises</li>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal taskRunners-->
+    <div class="modal fade" id="taskRunners" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Automatyzacja</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel panel-default">
+                    <div class="panel-heading">Tematy:</div>
+                        <div class="panel-body">
+                            <li>How to set up different tools and how they are diffrient from each other</li>
+                            <li>NPM packages</li>
+                            <li>Most common packages</li>
+                            <li>Pipes</li>
+                            <li>Hot reload</li>
+                            <li>Live reload</li>
+                            <li>Practical exercises</li>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal node-->
+    <div class="modal fade" id="node" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Szkolenie NodeJS i Express</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Tematy:</div>
+                        <div class="panel-body">
+                            <li>Events</li>
+                            <li>Routing</li>
+                            <li>Exploring API</li>
+                            <li>ES6 with Node</li>
+                            <li>TypeScript with Node</li>
+                            <li>Rx with Node</li>
+                            <li>Most common packages</li>
+                            <li>Security</li>
+                            <li>Working with NoSQL databese (Mongo)</li>
+                            <li>Working with SQL database (PostgreSQL)</li>
+                            <li>Testing</li>
+                            <li>Practical exercises</li>
+                        </div>
+                    </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal node-->
+    <div class="modal fade" id="preprocessors" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Preprocesory</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel panel-default">
+                <div class="panel-heading">Tematy zwiazane z preprocesorem Jade:</div>
+                    <div class="panel-body">
+                        <li>Using JavaScript in Jade templates</li>
+                        <li>Generating html from Jade</li>
+                        <li>Practical exercises</li>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                <div class="panel-heading">LESS, Sass, SCSS:</div>
+                    <div class="panel-body">
+                        <li>BEM and OOCSS</li>
+                        <li>Nested styles</li>
+                        <li>Variables</li>
+                        <li>Function</li>
+                        <li>Mixins</li>
+                        <li>Guards</li>
+                        <li>Practical exercises</li>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal React-->
+    <div class="modal fade bs-example-modal-lg" id="react" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">ReactJS i Redux</h4>
+                </div>
+                <div class="modal-body">
+                    <blockquote>
+                        React jest bardzo popularną biblioteką do tworzenia komponentów, która w połączeniu z Reduxem dostaczarcza architektury do tworzenia aplikacji frontendowych.
+                        Szkolenie obejmuje tematy związane z pisaniem programów w środowisku React - Redux, przy uzyciu nowoczesnych narzędzi. Uczestnicy skzolenia nauczą się jak poprawnie pisac aplikcje
+                        i unikać typowych błędów.
+
+                    </blockquote>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Tematy:</div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li>ES6+ features</li>
+                                    <li>Environment configuration</li>
+                                    <li>Virtual DOM</li>
+                                    <li>JSX</li>
+                                    <li>Component styling</li>
+                                    <li>Pure functions</li>
+                                    <li>Reducers</li>
+                                    <li>Dispatchers</li>
+                                    <li>Flux</li>
+                                    <li>Redux</li>
+                                    <li>Immutable Data Structures</li>
+                                    <li>Routing Server Side Rendering</li>
+                                    <li>Debugging React Components</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal node-->
+    <div class="modal fade" id="graphql" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">GraphQL</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel panel-default">
+                    <div class="panel-heading">Tematy:</div>
+                        <div class="panel-body">
+                            <li>REST vs GraphQL</li>
+                            <li>GraphQL mechanics in depth</li>
+                            <li>Queries and mutations</li>
+                            <li>Schemes and Types</li>
+                            <li>Validations</li>
+                            <li>Best practices</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+- const [flex, imgContainerClass = ''] = index%2 ? ['display-flex-reverse', text-center]: ['display-flex']
+if index === 0
+    div(id=training.id)
+else
+    .double-line.col-lg-12(id=training.id)
+
+.col-lg-12.align-center.sr-icons-1.relative(class=flex + ` sr-icons-${training.index}`)
+    .flex-1
+        h3 #{training.name}
+        p.text-muted #{training.mainDescription}
+
+        a(href=training.href)
+            button.btn.display-big.btn-primary.btn-lg.center-block.margin-bottom.btn-custom(type='button') #{general.details}
+            
+    .flex-1.text-center(class=imgContainerClass)
+        img.img-size(alt=training.alt style=training.imageStyle class=max-height src=training.img )
+
+    a(href=training.href)
+        button.display-medium.margin-top.btn.btn-primary.btn-lg.center-block.margin-bottom.btn-custom(type='button') #{general.details}

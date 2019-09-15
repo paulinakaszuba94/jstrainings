@@ -1,0 +1,96 @@
+\documentclass{article}[10pt]
+\usepackage{changepage} 
+\usepackage{sectsty}
+\usepackage{fancyhdr}
+\usepackage[sfdefault]{roboto}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\pagenumbering{arabic}
+\sectionfont{\fontsize{30}{15}\fontseries{t}\selectfont}
+\subsectionfont{\fontsize{14}{15}\fontseries{l}\selectfont}
+
+\renewcommand*\contentsname{Szkolenia:}
+
+\pagestyle{fancy}
+\fancyhead{}
+
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+
+\renewcommand{\headrulewidth}{0pt}
+\rhead{\fontsize{14}{12} \selectfont header (sam of every page)}
+
+\setcounter{secnumdepth}{0} % sections are level 1
+
+\begin{document}
+
+	\pagestyle{empty} %get rid of header/footer for toc page
+    \tableofcontents %put toc in
+    \cleardoublepage %start new page
+    \pagestyle{fancy} % put headers/footers back on
+    \setcounter{page}{1} %reset the page counter
+
+	\newpage
+	\section{Header1}
+
+	\subsection*{description:}
+	\begin{adjustwidth}{2cm}{}
+		text...
+	\end{adjustwidth}
+	\subsection*{profile:}
+\begin{adjustwidth}{2cm}{}
+	text...
+\end{adjustwidth}
+	\subsection*{duration:}
+\begin{adjustwidth}{2cm}{}
+	text...
+\end{adjustwidth}
+
+	\subsection*{list:}
+\begin{adjustwidth}{1.5cm}{}
+	\begin{itemize}
+		\item text
+	\end{itemize}
+\end{adjustwidth}
+
+	\subsection*{skills:}
+\begin{adjustwidth}{2cm}{}
+	text...
+\end{adjustwidth}
+
+\newpage
+
+	\section{Header}
+	\subsection*{description:}
+	\begin{adjustwidth}{2cm}{}
+		text...
+	\end{adjustwidth}
+	\subsection*{profile:}
+\begin{adjustwidth}{2cm}{}
+	text...
+\end{adjustwidth}
+	\subsection*{duration:}
+%\begin{adjustwidth}{2cm}{}
+	text...
+%\end{adjustwidth}
+	\subsection*{list:}
+\begin{adjustwidth}{1cm}{}
+	\begin{itemize}
+		\item text
+	\end{itemize}
+\end{adjustwidth}
+	\subsection*{skills:}
+\begin{adjustwidth}{2cm}{}
+	text...
+\end{adjustwidth}
+
+\end{document}
