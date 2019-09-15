@@ -37,6 +37,6 @@ Szkolenie adresowane jest do programistów znających język JavaScript.`,
 
 
     skills: `
-Po ukończonym szkoleniu uczestnicy będą potrafili tworzyć aplikacje używając frameworka Angular. Będą posiadali informacje na temat możliwych architektur aplikacji oraz głównych mechanizmów działania frameworka. 
+Po ukończonym szkoleniu uczestnicy będą potrafili tworzyć aplikacje przy użyciu frameworka Angular. Ponadto będą posiadali informacje na temat możliwych architektur aplikacji oraz głównych mechanizmów działania frameworka. 
 `
 }
