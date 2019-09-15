@@ -13,14 +13,14 @@ export const testing = {
         "Pisanie czystego kodu testów", "Selenium", "WebDriverJS",
         "Testy end-to-end z wykorzystaniem frameworka Protractor",
         "Locators", "Page Object", "Debugging", "Skąd czerpać dalszą wiedzę"],
-    "detailDescription": "Celem szkolenia jest nauczenie uczestników w jaki sposób pisać testy oraz testowalny kod." +
+    "detailDescription": "Celem szkolenia jest nauczenie uczestników, w jaki sposób pisać testy oraz testowalny kod." +
         " Uczestnicy dowiedzą się, czym jest podejście typu Test-Driven Development (TDD), Behaviour Driven" +
         " Development (BDD) oraz jakie są wady i zalety podejść tego typu. Szkolenie dotyczy nie tylko testów" +
         " jednostkowych, ale również testów end-to-end oraz tworzenia skalowalnych architektur testów automatycznych.",
     "name": "Testy Automatyczne",
     "en": {},
-    "mainDescription": " Umiejętne pisanie testów automatycznych jest wymagająca czynnością, związaną z tym, żeby" +
-        " określić co, kiedy i w jaki sposób testować. Dobór odpowiedniej metodologii testowania (TDD, BDD), frameworka testowego (Jasmine, Jest), narzędzia do testów end-to-end (Protractor, Puppeteer)," +
+    "mainDescription": " Umiejętne pisanie testów automatycznych jest wymagającą czynnością, wiążącą się z koniecznością" +
+        " określenia co, kiedy i w jaki sposób testować. Dobór odpowiedniej metodologii testowania (TDD, BDD), frameworka testowego (Jasmine, Jest), narzędzia do testów end-to-end (Protractor, Puppeteer)," +
         " umiejętność pisania testowalnego kodu, a także umiejętność pisania testów, które będą łatwe w" +
         " utrzymaniu... To wszystko to skomplikowany proces, który trzeba bardzo dobrze poznać, aby testy pomagały" +
         " w tworzeniu aplikacj, a nie były smutnym obowiązkiem generującym niepotrzebny narzut.",
