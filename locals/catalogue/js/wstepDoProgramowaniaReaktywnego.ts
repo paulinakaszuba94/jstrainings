@@ -13,7 +13,7 @@ Szkolenie adresowane jest do programistów znających dowolny język programowan
     list: rxjs.list,
 
     skills: `
-Po ukończony szkoleniu uczestnicy będą w stanie tworzyć reaktywne oprogramowanie i będą rozumieli w jakich przypadkach, tego typu podejście może zdecydowanie polepszyć jakość programu.`
+Po ukończonym szkoleniu uczestnicy będą w stanie tworzyć reaktywne oprogramowanie i będą rozumieć, w jakich przypadkach tego typu podejście może zdecydowanie polepszyć jakość programu.`
 
 
 }

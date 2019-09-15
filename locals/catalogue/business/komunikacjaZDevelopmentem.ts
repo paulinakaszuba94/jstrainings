@@ -24,5 +24,5 @@ Uczestnicy będą mieli szansę zrozumieć, czemu tak często potrzeby programis
 
 
     skills: `
-Uczestnicy po ukończonym szkoleniu będą lepiej rozumieć potrzeby programistów, będą wiedzieli w jaki sposób sprawniej się z nimi komunikować, a także poznają slang, którym się posługują. `
+Po ukończonym szkoleniu uczestnicy będą lepiej rozumieć potrzeby programistów, będą wiedzieli, w jaki sposób sprawniej się z nimi komunikować, a także poznają slang, którym się posługują. `
 }

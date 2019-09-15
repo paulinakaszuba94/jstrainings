@@ -14,12 +14,12 @@ export const vue = {
         `Komunikacja z serwerem`,
         `Routing`,
     ],
-    "detailDescription": 'W czasie szkolenia uczesnticy zdobędą szereg informacji na temat biblioteki Vue oraz nauczą się w' +
-        ' jaki sposób poprawnie zarządzać stanem aplikacji używając takich narzędzi jak Vuex i Rxjs',
+    "detailDescription": 'W czasie szkolenia uczesnticy zdobędą szereg informacji na temat biblioteki Vue oraz nauczą się, w' +
+        ' jaki sposób poprawnie zarządzać stanem aplikacji używając narzędzi, takich jak Vuex i Rxjs',
     "name": "Vue.js",
     "en": {},
     "mainDescription": "Vue to nowoczesne narzędzie do tworzenia aplikacji frontendowych. Jego zalety to szybkość," +
-        " lekkośc oraz wygodne API. Vue.js jest biblioteką community driven, za którą  - w przeciwieństwie do" +
+        " lekkość oraz wygodne API. Vue.js jest biblioteką community driven, za którą  - w przeciwieństwie do" +
         " React'a czy Angulara - nie stoi żadna korporacja.",
     "alt": "Vue.js",
     "img": "./img/portfolio/thumbnails/vue.png",

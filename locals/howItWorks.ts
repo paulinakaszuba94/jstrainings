@@ -1,6 +1,6 @@
 export const howItWorks = {
     theory: {
-        description: 'Dogłębna analiza mechaniki omawianych technologii pozwala na zrozumienie w jaki sposób wykorzystać je zgodnie z ich przeznaczeniem i filozofią tak, aby unikać antywzorców.',
+        description: 'Dogłębna analiza mechaniki omawianych technologii pozwala na zrozumienie, w jaki sposób wykorzystać je zgodnie z ich przeznaczeniem i filozofią tak, aby unikać antywzorców.',
         name: 'Teoria'
     },
     examples: {
@@ -9,6 +9,6 @@ export const howItWorks = {
     },
     exercises: {
         name: 'Ćwiczenia praktyczne',
-        description: 'Szkolenia obfitują w całą gamę praktycznych ćwiczeń, dzięki czemu każdy uczestnik szkolenia będzie w stanie z łatwością korzystać z technologii i implementować poznane rozwiązania po ukończeniu szkolenia.'
+        description: 'Szkolenia obfitują w całą gamę praktycznych ćwiczeń, dzięki czemu każdy uczestnik będzie w stanie z łatwością korzystać z technologii i implementować poznane rozwiązania po jego ukończeniu.'
     },
 };
