@@ -1,8 +1,8 @@
 export const progressiveAppRewriting = {
     name: `Progresywne przepisywanie aplikacji, zmniejszanie długu technologicznego i zasady clean code`,
-    description: `Celem szkolenia jest nauczenie uczestników w jaki sposób zabrać się do migracji legacy aplikacji.
+    description: `Celem szkolenia jest nauczenie uczestników, w jaki sposób zabrać się do migracji legacy aplikacji.
      Szkolenie dotyczyć będzie również zasady czystego kodu, które pozwolą tworzyć aplikacje o znacznie wyższej jakości. 
-     W czasie zajęć poruszane będą również tematy dotyczące długu technologicznego oraz techniki na jego minimalizację.
+     W czasie zajęć poruszane będą także tematy dotyczące długu technologicznego oraz techniki jego minimalizacji.
 `,
 
     profile: `
