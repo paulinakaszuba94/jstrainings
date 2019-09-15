@@ -3,7 +3,7 @@ import {javascript} from "../../trainings/javascript";
 export const es6Training = {
     name: `ES6+`,
     description: `
-Celem szkolenia jest przekazanie wiedzy na temat nowych featurów języka JavaScript, które zostały zaimplementowane w standardach EcmaScript, nowszych niż EcmaScript 5. Uczestnicy nauczą się podstawowych mechanizmów, takich jak zmienne blokowe, jak również tych bardziej skomplikowanych, jak iteratory, generatory czy metaprogrmowanie przy użyciu proxy
+Celem szkolenia jest przekazanie wiedzy na temat nowych featurów języka JavaScript, które zostały zaimplementowane w standardach EcmaScript, nowszych niż EcmaScript 5. Uczestnicy nauczą się podstawowych mechanizmów, takich jak zmienne blokowe, jak również tych bardziej skomplikowanych, jak iteratory, generatory czy metaprogrmowanie przy użyciu proxy.
 `,
 
     profile: `
