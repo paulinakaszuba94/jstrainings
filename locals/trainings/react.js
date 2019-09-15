@@ -2,7 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.react = {
     "id": "react",
-    "list": ["ES6+ features", "Environment configuration", "Virtual DOM", "React hooks", "JSX", "Component styling", "Pure functions", "Reducers", "Dispatchers", "Flux", "Redux", "Immutable Data Structures", "Routing Server Side Rendering", "Debugging React Components"],
+    "list": ["ES6+ features", "Environment configuration", "Virtual DOM", "React hooks", "custom hooks", "JSX",
+        "Component styling", "Pure functions", "functional components", "Reducers", "Dispatchers", "Flux", "Redux",
+        "Immutable Data Structures", "Routing Server Side Rendering", "Debugging React Components"],
     "detailDescription": "React jest bardzo popularną biblioteką do tworzenia komponentów, " +
         "która w połączeniu z odpowiednim menadżerem stanu w podstacia react hooks, contextAPI czy Reduxem" +
         " daja olbrzymie możliwości do budowania całej aplikacji. ",

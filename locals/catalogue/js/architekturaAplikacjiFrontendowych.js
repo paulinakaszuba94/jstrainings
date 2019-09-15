@@ -17,7 +17,7 @@ exports.frontendArchitectureTraining = {
         "Communicating sequential processes (CSP)",
         "Domain Driven Design",
         "Test-driven development",
-        "Modele architektoniczne:",
+        "Modele architektoniczne",
         "Model-view-controller",
         "Model-view-viewmodel",
         "Model-view-presenter",

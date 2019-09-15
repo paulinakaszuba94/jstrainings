@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var angular_1 = require("../../trainings/angular");
 exports.angularBasicTraining = {
     name: "Angular: kurs podstawowy",
-    description: angular_1.angular + " \nCelem szkolenia jest nauczenie uczestnik\u00F3w w jaki spos\u00F3b budowa\u0107 aplikacje w oparciu o framework Angular. Uczestnicy poznaj\u0105 mechanizmy frameworka co pozwoli im na samodzieln\u0105 prac\u0119 w tym \u015Brodowisku. Dodatkowo poznaj\u0105 struktury architektoniczne, kt\u00F3re mog\u0105 zosta\u0107 zaimplementowane w angularowych aplikacjach. \n",
+    description: angular_1.angular.mainDescription + " " + angular_1.angular.detailDescription,
     profile: "\nSzkolenie adresowane jest do programist\u00F3w znaj\u0105cych j\u0119zyk JavaScript.",
     duration: 3,
     list: [

@@ -1,43 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var testing_1 = require("../../trainings/testing");
 exports.testsBasicTraining = {
     name: "Testy automatyczne aplikacji webowych dla programist\u00F3w\n",
-    description: "\nCelem szkolenia jest nauczenie uczestnik\u00F3w czym jest testowalny kod, jak pisa\u0107 testy jednostkowe oraz testy end-to-end. Uczestnicy dowiedz\u0105 si\u0119 r\u00F3wnie\u017C czym jest podej\u015Bcie typu Test-Driven Development (TDD),  Behaviour Driven Development (BDD) oraz jakie s\u0105 wady i zalety podej\u015B\u0107 tego typu.\n",
+    description: testing_1.testing.detailDescription,
     profile: "\nPodstawowa wiedza z zakresu programowania.",
     duration: 2,
-    list: [
-        "Jak pisa\u0107 testowalny kod",
-        "R\u00F3\u017Cne typy test\u00F3w - unit tests, integration test, system tests, acceptance tests",
-        "R\u00F3\u017Cnica w podej\u015Bciach typu TDD oraz BDD",
-        "Zasada Arrange-Act-Assert",
-        "Tworzenie test\u00F3w w Jasmine",
-        "tworzenie suite\u2019s za pomoc\u0105 describe i it",
-        "u\u017Cywanie wbudowanych matcher\u2019\u00F3w i asymetrychnych matcher\u2019\u00F3w",
-        "negacje matcher\u2019\u00F3w",
-        "Arrange-Act-Assert w Jasmine",
-        "s\u0142owo kluczowe this w suite",
-        "r\u0119czne wywo\u0142ywanie niepowodze\u0144",
-        "disabled suites",
-        "pending suites",
-        "function spies",
-        "mockowanie funkcji",
-        "mockowanie czasu i daty",
-        "testowanie asynchronicznego kodu za pomoc\u0105 callback\u00F3w, promis\u00F3w, async/await",
-        "mockowanie wywo\u0142a\u0144 event\u00F3w",
-        "jasmine-ajax i mockowanie odpowiedzi z serwera",
-        "custom matchers",
-        "custom equality",
-        "custom asymmetric equality",
-        "inne narz\u0119dzia jasmine (reporters, custom boot)",
-        "pisanie czystego kodu w czasie tworzenia test\u00F3w",
-        "Selenium",
-        "WebDriverJS",
-        "Testy end-to-end z wykorzystaniem frameworka Protractor:",
-        "Setup \u015Brodowiska",
-        "Locators",
-        "Page Object",
-        "Debugging",
-        "Sk\u0105d czerpa\u0107 dalsz\u0105 wiedz\u0119"
-    ],
+    list: testing_1.testing.list,
     skills: "\nPo uko\u0144czonym szkoleniu uczestnicy b\u0119d\u0105 posiada\u0107 wiedz\u0119 na temat pisania test\u00F3w jednostkowych oraz test\u00F3w typu end-to-end. B\u0119d\u0105 wiedzie\u0107 jak pisa\u0107 testowalny kod co zwi\u0119kszy jego przejrzysto\u015B\u0107 i jako\u015B\u0107. \n\n\n"
 };

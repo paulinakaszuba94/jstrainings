@@ -2,7 +2,18 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.rxjs = {
     "id": "rxjs",
-    "list": ["Reactive programming", "Data streams", "Rx operators", "Creating operators", "Composing streams", "Observables and observers", "Subjects", "Modules", "Model-Viewer-Intent architecture", "Testing", "Practical exercises"],
+    list: [
+        "Programowanie imperatywne",
+        "Idea programowania reaktywnego",
+        "Strumienie danych",
+        "Operatory Rx",
+        "Tworzenie w\u0142asnych operator\u00F3w",
+        "Observables i observers",
+        "Subjects",
+        "Schedulers",
+        "Modularyzacja aplikacji",
+        "Architektura typu Model-Viewer-Intent"
+    ],
     "detailDescription": "Celem szkolenia jest przekazanie wiedzy na temat reaktywnego programowania na podstawie budowania aplikacji w oparciu o bibliotekę RxJS. Uczestnicy poznają różnicę między podejściem imperatywnym i reaktywnym, dzięki czemu zrozumieją jakie są wady i zalety każdego z nich. Po ukończeniu szkolenia będą w stanie samodzielnie implementować reaktywne struktury i będą wiedzieć w których miejscach aplikacji takie podejście może bardzo poprawić działanie aplikacji.",
     "name": "Programowanie reaktywne",
     "img": "./img/portfolio/thumbnails/rxjs.png",

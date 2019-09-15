@@ -8,7 +8,12 @@ exports.pwa = {
         " użytkownika będą wyglądały jak aplikacje natywne",
     "name": "Web Workers i Progressive Web Apps",
     "en": {},
-    "mainDescription": " W dzisiejszym świecie za pomocą JavaScriptu można stworzyć aplikacje webowe, które mogą być uruchomione jak aplikacja natywna na telefonie czy desktopie. Odpowiednio zbudowana aplikacja będzie posiadała swoją ikonę, może działać offline dzięki czemu użytkownik korzysta z niej jak z każdej innej aplikacji. \n ",
+    "mainDescription": " W dzisiejszym świecie za pomocą JavaScriptu można stworzyć aplikacje webowe, które mogą być" +
+        " uruchomione jak aplikacja natywna na telefonie czy desktopie. Odpowiednio zbudowana aplikacja będzie" +
+        " posiadała swoją ikonę na pulpicie jak również może działać offline dzięki czemu użytkownik korzysta z niej" +
+        " jak z" +
+        " każdej" +
+        " innej aplikacji. \n ",
     "alt": "Web Workers i Progressive Web Apps",
     "img": "./img/portfolio/thumbnails/pwa.png",
     "src": ".././img/portfolio/thumbnails/pwa.png",
