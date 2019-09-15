@@ -1,7 +1,7 @@
 export const angularAdvancedTraining = {
     name: `Angular: kurs zaawansowany`,
     description: `
-Celem szkolenia jest przekazanie informacji na temat zaawansowanych mechanizmów działania frameworka Angular. Uczestnicy dowiedzą się w jaki sposób tworzyć m.in. własne dyrektywy, dynamiczne komponenty, komponenty reaktywne, zagnieżdżony routing, dostaną szereg informacji na temat performance’u i możliwych memory leak’ów oraz dowiedzą się w jaki sposób mogą użyć Angulara razem z nowoczesnymi podejściami do zarządzania stanem takimi jak Flux czy Model-View-Intent.
+Celem szkolenia jest przekazanie informacji na temat zaawansowanych mechanizmów działania frameworka Angular. Uczestnicy dowiedzą się, w jaki sposób tworzyć m.in. własne dyrektywy, dynamiczne komponenty, komponenty reaktywne, zagnieżdżony routing. Ponadto dostaną szereg informacji na temat performance’u i możliwych memory leak’ów oraz dowiedzą się, jak mogą użyć Angulara razem z nowoczesnymi podejściami do zarządzania stanem, takimi jak Flux czy Model-View-Intent.
 Uczestnicy poznają także w szczegółach zasadę pracy z Observables i nauczą się operować na strumieniach danych.
 `,
 
