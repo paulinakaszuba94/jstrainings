@@ -15,7 +15,7 @@ export const vue = {
         `Routing`,
     ],
     "detailDescription": 'W czasie szkolenia uczesnticy zdobędą szereg informacji na temat biblioteki Vue oraz nauczą się, w' +
-        ' jaki sposób poprawnie zarządzać stanem aplikacji używając narzędzi, takich jak Vuex i Rxjs',
+        ' jaki sposób poprawnie zarządzać stanem aplikacji używając narzędzi, takich jak Vuex i Rxjs.',
     "name": "Vue.js",
     "en": {},
     "mainDescription": "Vue to nowoczesne narzędzie do tworzenia aplikacji frontendowych. Jego zalety to szybkość," +
