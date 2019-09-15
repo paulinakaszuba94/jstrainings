@@ -15,10 +15,11 @@ export const webassembly = {
         ' innych językach' +
         ' programowania niż' +
         ' JavaScript, co daje olbrzymie możliwości',
-    "detailDescription":'W czasie szkolenia uczesnticy zdobędą szereg informacji na temat języka webassembly.' +
-        ' WebAssembly pozwala na użycie kodu źródłowego napisanego w innych językach' +
-    ' programowania niż' +
-        ' JavaScript, w aplikacjach front-endowych, co daje olbrzymie możliwości',
+    "detailDescription":'W czasie szkolenia uczesnticy zdobędą szereg informacji na temat języka WebAssembly.' +
+        'WebAssembly pozwala na użycie w aplikacjach frontendowych kodu źródłowego napisanego w' +
+        ' innych językach' +
+        ' programowania niż' +
+        ' JavaScript, co daje olbrzymie możliwości',
     "name": "WebAssembly",
     "en": {},
     "alt": "Webassembly",
