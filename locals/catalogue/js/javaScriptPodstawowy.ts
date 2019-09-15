@@ -9,7 +9,7 @@ export const jsBasicTraining = {
         'MVC, MVVM, Flux. Dzięki przekazanej wiedzy uczestnicy będą rozumieć działanie języka, co pozwoli na szybki' +
         ' dalszy rozwój oraz unikanie najczęstszych błędów przy tworzeniu aplikacji internetowych.',
     profile: `
-Szkolenie przeznaczone jest dla osób, znających dowolny język programowania. Dla tych, którzy dopiero zaczynają swoją przygodę z programowaniem sporządzony został kurs - Wstęp do programowania z JavaScript
+Szkolenie przeznaczone jest dla osób, znających dowolny język programowania. Dla tych, którzy dopiero zaczynają swoją przygodę z programowaniem sporządzony został kurs - Wstęp do programowania z JavaScript.
 `,
     duration: 3,
     list: javascript.lists.filter(({name}) => name === "JavaScript - kurs podstawowy")[0].list,
