@@ -20,7 +20,7 @@ Szkolenie adresowane jest do programistów, którzy posiadają wiadomości ze sz
 
 
     skills: `
-Po ukończonym szkoleniu uczestnicy będą posiadać wiedzę na temat tworzenia zaawansowanych testów
+Po ukończonym szkoleniu uczestnicy będą posiadać wiedzę na temat tworzenia zaawansowanych testów.
 
 `
 }
