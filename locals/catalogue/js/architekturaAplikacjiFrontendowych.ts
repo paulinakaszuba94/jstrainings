@@ -1,6 +1,6 @@
 export const frontendArchitectureTraining = {
     name: `Architektura aplikacji frontendowych`,
-    description: `Celem szkolenia jest nauczenie uczestników w jaki sposób tworzyć skalowalne architektury aplikacji oraz jak wyglądają nowoczesne narzędzia JS umożliwiające tworzenie i utrzymywanie dużych systemów frontendowych.`,
+    description: `Celem szkolenia jest nauczenie uczestników, w jaki sposób tworzyć skalowalne architektury aplikacji oraz jak wyglądają nowoczesne narzędzia JS umożliwiające tworzenie i utrzymywanie dużych systemów frontendowych.`,
     profile: `
 Szkolenie adresowane jest do programistów znających język JavaScript.`,
     duration:
